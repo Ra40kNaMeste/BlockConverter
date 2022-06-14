@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionIfEmptyStringPropertyValueConverter" xml:space="preserve">
+    <value>Action if string is empty</value>
+    <comment>Название звена действия при пустой строке</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AddBlockButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AddBlockButton.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddBlockToolTip" xml:space="preserve">
+    <value>Add Block after selected Blocks</value>
+  </data>
+  <data name="AddedFailBlock" xml:space="preserve">
+    <value>Fail add blocks: </value>
+  </data>
+  <data name="AddedSuccessfullyBlock" xml:space="preserve">
+    <value>Add blocks successfully</value>
+  </data>
+  <data name="AddPropertyValueConverter" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AddSchemeFailed" xml:space="preserve">
+    <value>Add scheme fail: </value>
+  </data>
+  <data name="AddSchemeSuccessfully" xml:space="preserve">
+    <value>Add scheme successfully</value>
+  </data>
+  <data name="AppendWordPropertyValueConverter" xml:space="preserve">
+    <value>Append </value>
+    <comment>Название звена цепи добавления слова</comment>
+  </data>
+  <data name="BasicGeneralSettings" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="BlockConstructionBegin" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="BlockConstructionCycle" xml:space="preserve">
+    <value>Cycle</value>
+    <comment>Имя конструкции Cycle</comment>
+  </data>
+  <data name="BlockConstructionEnd" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="BlockConstructionForCycle" xml:space="preserve">
+    <value>For</value>
+    <comment>Имя конструкции ForCycle</comment>
+  </data>
+  <data name="BlockConstructionFunction" xml:space="preserve">
+    <value>Function </value>
+    <comment>Имя конструкции Function</comment>
+  </data>
+  <data name="BlockConstructionIf" xml:space="preserve">
+    <value>If</value>
+    <comment>Имя конструкции If</comment>
+  </data>
+  <data name="BlockConstructionInput" xml:space="preserve">
+    <value>Input</value>
+    <comment>Имя конструкции Input</comment>
+  </data>
+  <data name="BlockConstructionMethod" xml:space="preserve">
+    <value>Method </value>
+    <comment>Имя конструкции Method</comment>
+  </data>
+  <data name="BlockConstructionOperation" xml:space="preserve">
+    <value>Operation</value>
+    <comment>Имя конструкции Operation</comment>
+  </data>
+  <data name="BlockConstructionOutput" xml:space="preserve">
+    <value>Output</value>
+    <comment>Имя конструкции Output</comment>
+  </data>
+  <data name="BlockConstructionPostCycle" xml:space="preserve">
+    <value>Post Cycle</value>
+    <comment>Имя конструкции PostCycle</comment>
+  </data>
+  <data name="BlockConstructionPropertyBody" xml:space="preserve">
+    <value />
+    <comment>Имя свойства конструкции Body</comment>
+  </data>
+  <data name="BlockConstructionPropertyInput" xml:space="preserve">
+    <value>Input</value>
+    <comment>Имя свойства конструкции input</comment>
+  </data>
+  <data name="BlockConstructionPropertyName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="BlockConstructionPropertyOutput" xml:space="preserve">
+    <value>Output</value>
+    <comment>Имя свойства конструкции output</comment>
+  </data>
+  <data name="BlockConstructionReturn" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="BlockConstructionSwitch" xml:space="preserve">
+    <value>Switch</value>
+    <comment>Имя конструкции Switch</comment>
+  </data>
+  <data name="CleanEscapePropertyValueConverterName" xml:space="preserve">
+    <value>Clean Escape</value>
+    <comment>Название звена цепи удаления пробелов</comment>
+  </data>
+  <data name="ConvertButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ConvertButton.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ConvertStringToBlocksFailed" xml:space="preserve">
+    <value>Convert fail: </value>
+  </data>
+  <data name="ConvertStringToBlocksSuccessfully" xml:space="preserve">
+    <value>Convert successfully</value>
+  </data>
+  <data name="ConvertToolTip" xml:space="preserve">
+    <value>Convert code to Schemes</value>
+  </data>
+  <data name="CopyBlocksButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CopyBlocksButton.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CopyBlocksFailed" xml:space="preserve">
+    <value>Copy fail: </value>
+  </data>
+  <data name="CopyBlocksSuccessfully" xml:space="preserve">
+    <value>Copy successfully</value>
+  </data>
+  <data name="CopyBlocksToolTip" xml:space="preserve">
+    <value>Copy selected Blocks</value>
+  </data>
+  <data name="CustomStyleName" xml:space="preserve">
+    <value>Style </value>
+    <comment>Имя кастомного стиля. После будет отображаться номер стиля</comment>
+  </data>
+  <data name="DarkThemeName" xml:space="preserve">
+    <value>Dark</value>
+    <comment>Название тёмной темы</comment>
+  </data>
+  <data name="DefaultStyleName" xml:space="preserve">
+    <value>Default</value>
+    <comment>Имя дефолтного стиля</comment>
+  </data>
+  <data name="enUSLanguage" xml:space="preserve">
+    <value>English</value>
+    <comment>Язык приложения</comment>
+  </data>
+  <data name="ExportBlocksFailed" xml:space="preserve">
+    <value>Export fail:</value>
+  </data>
+  <data name="ExportBlocksSuccessfully" xml:space="preserve">
+    <value>Export successfully</value>
+  </data>
+  <data name="FalseTextBlock" xml:space="preserve">
+    <value>No</value>
+    <comment>Текст для пути, если условие не выполняется</comment>
+  </data>
+  <data name="GeneralSettingsHeader" xml:space="preserve">
+    <value>General Settings</value>
+    <comment>Название вкадки с основными настройками</comment>
+  </data>
+  <data name="GeneralSettingsLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="GeneralSettingsTheme" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="InputSampleForPropertyValueConverter" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="InsertPropertyValueConverter" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="LanguageDialogAccept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="LanguageDialogIgnore" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="LanguageDialogText" xml:space="preserve">
+    <value>Reboot required to change app language</value>
+    <comment>Сообщение для подтверждения изменения языка</comment>
+  </data>
+  <data name="LightThemeName" xml:space="preserve">
+    <value>Light</value>
+    <comment>Назание светлой темы</comment>
+  </data>
+  <data name="LoggingThreadName" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="MenuAddBlockName" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="MenuConvertName" xml:space="preserve">
+    <value>Convert to Blocks</value>
+  </data>
+  <data name="MenuCopyBlocksName" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="MenuCreateNewScheme" xml:space="preserve">
+    <value>New Scheme</value>
+  </data>
+  <data name="MenuEditName" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="MenuExportToPngName" xml:space="preserve">
+    <value>Export to png</value>
+  </data>
+  <data name="MenuFileName" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="MenuOpenName" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="MenuPasteBlocksName" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="MenuRedoName" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="MenuRemoveBlockName" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="MenuSaveAsName" xml:space="preserve">
+    <value>Save as</value>
+  </data>
+  <data name="MenuSettingsName" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="MenuUndoName" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="NameStyleColumnSettings" xml:space="preserve">
+    <value>Name</value>
+    <comment>Имя столбца с названием стиля</comment>
+  </data>
+  <data name="OpenBlockSchemeFailed" xml:space="preserve">
+    <value>Open fail: </value>
+  </data>
+  <data name="OpenBlockSchemeSuccessfully" xml:space="preserve">
+    <value>Open successfully</value>
+  </data>
+  <data name="OutputSampleForPropertyValueConverter" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="PasteBlocksButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>PasteBlocksButton.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PasteBlocksFailed" xml:space="preserve">
+    <value>Paste fail: </value>
+  </data>
+  <data name="PasteBlocksSuccessfully" xml:space="preserve">
+    <value>Paste successfully</value>
+  </data>
+  <data name="PasteBlocksToolTip" xml:space="preserve">
+    <value>Paste Blocks after selectsBlocks</value>
+  </data>
+  <data name="ReadLaguageFailed" xml:space="preserve">
+    <value>Read laguage fail: </value>
+  </data>
+  <data name="ReadLaguageSuccessfully" xml:space="preserve">
+    <value>Read laguage successfully</value>
+  </data>
+  <data name="RedoArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>RedoArrow.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RedoBlockToolTip" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="RedoFailed" xml:space="preserve">
+    <value>Redo fail: </value>
+  </data>
+  <data name="RedoSuccessfully" xml:space="preserve">
+    <value>Redo successfully</value>
+  </data>
+  <data name="RemoveBlockToolTip" xml:space="preserve">
+    <value>Remove selected Blocks
+Ctrl+X</value>
+  </data>
+  <data name="RemoveButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>RemoveButton.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RemoveFailBlock" xml:space="preserve">
+    <value>Fail remove blocks: </value>
+  </data>
+  <data name="RemovePropertyValueConverter" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveSchemeFailed" xml:space="preserve">
+    <value>Remove scheme fail: </value>
+  </data>
+  <data name="RemoveSchemeSuccessfully" xml:space="preserve">
+    <value>Remove scheme successfully</value>
+  </data>
+  <data name="RemoveSuccessfullyBlock" xml:space="preserve">
+    <value>Remove blocks successfully</value>
+  </data>
+  <data name="ruRULanguage" xml:space="preserve">
+    <value>Russian</value>
+    <comment>Язык приложения</comment>
+  </data>
+  <data name="SaveBlockSchemeFailed" xml:space="preserve">
+    <value>Save fail: </value>
+  </data>
+  <data name="SaveBlockSchemeSuccessfully" xml:space="preserve">
+    <value>Save successfully</value>
+  </data>
+  <data name="SettingsAcceptCommand" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="StartScheme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>StartSchemeEn-us.blocks;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StylesSettingsHeader" xml:space="preserve">
+    <value>Styles</value>
+  </data>
+  <data name="SuccessorfullyInizializeRootViewModel" xml:space="preserve">
+    <value>Load BlockConverter is Successorfully</value>
+  </data>
+  <data name="ToolTipBlock" xml:space="preserve">
+    <value>Ctrl+B</value>
+  </data>
+  <data name="ToolTipCycleBlock" xml:space="preserve">
+    <value>Ctrl+R</value>
+  </data>
+  <data name="ToolTipEndBlock" xml:space="preserve">
+    <value>Ctrl+E</value>
+  </data>
+  <data name="ToolTipForCycleBlock" xml:space="preserve">
+    <value>Ctrl+F</value>
+  </data>
+  <data name="ToolTipIfBlock" xml:space="preserve">
+    <value>Ctrl+T</value>
+  </data>
+  <data name="ToolTipInputBlock" xml:space="preserve">
+    <value>Ctrl+I</value>
+  </data>
+  <data name="ToolTipMethodBlock" xml:space="preserve">
+    <value>Ctrl+M</value>
+  </data>
+  <data name="ToolTipOutputBlock" xml:space="preserve">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="ToolTipPostCycleBlock" xml:space="preserve">
+    <value>Ctrl+P</value>
+  </data>
+  <data name="ToolTipSwitchBlock" xml:space="preserve">
+    <value>Ctrl+K</value>
+  </data>
+  <data name="TrueTextBlock" xml:space="preserve">
+    <value>Yes</value>
+    <comment>Текст для пути, если условие выполняется</comment>
+  </data>
+  <data name="UndoArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>UndoArrow.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UndoBlockToolTip" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="UndoFailed" xml:space="preserve">
+    <value>Undo fail: </value>
+  </data>
+  <data name="UndoSuccessfully" xml:space="preserve">
+    <value>Undo successfully</value>
+  </data>
+  <data name="UnionPropertyValueConverterName" xml:space="preserve">
+    <value>Union</value>
+    <comment>Название звена цепи объединения</comment>
+  </data>
+  <data name="VisualConvertersSettingsHeader" xml:space="preserve">
+    <value>Visual Converters</value>
+    <comment>Название вкладки с настройками конвертеров блоков</comment>
+  </data>
+  <data name="VisualPropertiesDirectionForAppendWord" xml:space="preserve">
+    <value>, Connect to </value>
+    <comment>Направления вставки слова</comment>
+  </data>
+  <data name="VisualPropertiesLeftDirection" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="VisualPropertiesRightDirection" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="VisualPropertiesWordName" xml:space="preserve">
+    <value> Word = </value>
+    <comment>Имя свойства Word звена цепи</comment>
+  </data>
+  <data name="VisualStyleColumnSettings" xml:space="preserve">
+    <value>Style</value>
+    <comment>Имя столбца с примером стиля</comment>
+  </data>
+</root>

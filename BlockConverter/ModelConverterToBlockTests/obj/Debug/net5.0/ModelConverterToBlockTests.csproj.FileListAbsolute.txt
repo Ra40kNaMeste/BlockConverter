@@ -1,0 +1,364 @@
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\testhost.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\testhost.exe
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\DataCode\VBA.xml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.deps.json
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.runtimeconfig.json
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.runtimeconfig.dev.json
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ref\ModelConverterToBlockTests.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.pdb
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\NuGet.Frameworks.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlock.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlock.pdb
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.csproj.AssemblyReference.cache
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.GeneratedMSBuildEditorConfig.editorconfig
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.AssemblyInfoInputs.cache
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.AssemblyInfo.cs
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.csproj.CoreCompileInputs.cache
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.csproj.CopyComplete
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ref\ModelConverterToBlockTests.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.pdb
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.genruntimeconfig.cache
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\DataCode\c_sharp1.xml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\ConvertToBlock\c_sharpCorrect.xml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\ConvertToBlock\c_sharpNotContext.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\testhost.exe
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\testhost.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\DataCode\VBA.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\ConvertToBlock\c_sharpCorrect.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\ConvertToBlock\c_sharpNotContext.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.deps.json
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.runtimeconfig.json
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.runtimeconfig.dev.json
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ref\ModelConverterToBlockTests.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.pdb
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\NuGet.Frameworks.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlock.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlock.pdb
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.csprojAssemblyReference.cache
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.AssemblyInfoInputs.cache
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.AssemblyInfo.cs
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.csproj.CoreCompileInputs.cache
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.csproj.CopyComplete
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ref\ModelConverterToBlockTests.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.pdb
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.genruntimeconfig.cache
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\DataCode\c_sharp.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\SkiperTests.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\SkiperTests.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\ConvertToBlock\OneSwitch.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\WordSkiperTests.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\WordSkiperTests.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\NotWordSkiperTests.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\NotWordSkiperTests.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\SpaceSkiperTests.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\SpaceSkiperTests.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\PropertyDataTests.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\PropertyDataTests.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\ByPatternReaderTests.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\ByPatternReaderTests.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\BlockTextToWordTests.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\BlockTextToWordTests.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\WordReaderTests.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\WordReaderTests.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\BodyReaderTests.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\BodyReaderTests.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\ArrayParamsReaderTests.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\ArrayParamsReaderTests.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\OptionalLinkReaderTests.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\OptionalLinkReaderTests.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\DataCode\c++.xml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\StretchPropertyDataTests.txt
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\StretchPropertyDataTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\testhost.exe
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\testhost.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\DataCode\c++.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\DataCode\c_sharp.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\DataCode\VBA1.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\ConvertToBlock\c_sharpCorrect.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\ConvertToBlock\c_sharpNotContext.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\ConvertToBlock\OneSwitch.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\ArrayParamsReaderTests.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\ArrayParamsReaderTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\BlockTextToWordTests.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\BlockTextToWordTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\BodyReaderTests.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\BodyReaderTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\ByPatternReaderTests.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\ByPatternReaderTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\NotWordSkiperTests.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\NotWordSkiperTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\OptionalLinkReaderTests.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\OptionalLinkReaderTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\PropertyDataTests.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\PropertyDataTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\SkiperTests.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\SkiperTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\SpaceSkiperTests.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\SpaceSkiperTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\StretchPropertyDataTests.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\StretchPropertyDataTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\WordReaderTests.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\WordReaderTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\WordSkiperTests.txt
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Converters\Reader\LinkersTests\LinkersTestsDates\WordSkiperTests.xml
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.deps.json
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.runtimeconfig.json
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.runtimeconfig.dev.json
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ref\ModelConverterToBlockTests.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlockTests.pdb
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\NuGet.Frameworks.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlock.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\bin\Debug\net5.0\ModelConverterToBlock.pdb
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.csprojAssemblyReference.cache
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.AssemblyInfoInputs.cache
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.AssemblyInfo.cs
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.csproj.CoreCompileInputs.cache
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.csproj.CopyComplete
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ref\ModelConverterToBlockTests.dll
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.pdb
+D:\Projects\BlockConverter\BlockConverter\ModelConverterToBlockTests\obj\Debug\net5.0\ModelConverterToBlockTests.genruntimeconfig.cache

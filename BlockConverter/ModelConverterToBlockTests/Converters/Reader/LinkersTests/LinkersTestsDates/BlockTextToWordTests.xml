@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dates>
+	<Data Name="Context">
+		<Property Name="Name"/>
+    <Body Name="CycleBody" Start="{" End="}"/>
+    <BlockText Name="BlockText1" IsIncludeNextWord="true" EndWord="b"/>
+    <BlockText Name="BlockText2" IsIncludeNextWord="false" EndWord=";"/>
+    <BlockText Name="BlockText3" IsIncludeNextWord="false" EndWord=";" Links="#(*s)#(Name)#(*s)" InizLevel="1"/>
+  </Data>
+  <Data Name="Function" Content="#(Name)" ChildBlocks="#(CycleBody)" EndBlockContent="#(Name)">
+    <Realizations>
+      <Realization Template="#(!w)#(Name)#(*s)#(CycleBody)"/>
+    </Realizations>
+  </Data>
+
+  <Data Name="Operation" Content="#(BlockText1)+#(BlockText2)">
+		<Realizations>
+			<Realization Template="noLinks=#(BlockText1)#(BlockText2)"/>
+      <Realization Template="links=#(BlockText3)" Content="#(BlockText3.Name)+ab"/>
+    </Realizations>
+	</Data>
+</Dates>

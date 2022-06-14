@@ -1,0 +1,447 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:blocks="clr-namespace:BlocksLib.Blocks"
+                    xmlns:shapes="clr-namespace:BlocksLib.Blocks.Shapes"
+                    xmlns:tools="clr-namespace:BlocksLib.Blocks.Tools"
+                    xmlns:cntrls="clr-namespace:BlocksLib.Blocks.CustomControls"
+                    xmlns:i="http://schemas.microsoft.com/xaml/behaviors">   
+    <tools:ConverterMultiply x:Key="multiply"/>
+    <tools:ConverterSumm x:Key="summ"/>
+    <tools:ConverterThicnessToHeight x:Key="toHeight"/>
+    <tools:ConverterThicnessToWidth x:Key="toWidth"/>
+    <tools:ConvertDoubleToRhombus x:Key="toSquare"/>
+    <tools:ConverterMax x:Key="max"/>
+
+    <!--<Color x:Key="SelectColor" R=""-->
+    <SolidColorBrush x:Key="SelectColor" Color="#00C0C0"/>
+    <SolidColorBrush x:Key="NoSelectColor" Color="Black"/>
+    
+    <Style TargetType="blocks:BlockBase" x:Key="BlockCustomStyle">
+        <Setter Property="Padding" Value="5"/>
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="RootColor" Value="{StaticResource NoSelectColor}"/>
+        <Style.Triggers>
+            <Trigger Property="IsRootBlockSelect" Value="True">
+                <Setter Property="RootColor" Value="{StaticResource SelectColor}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="blocks:Block" x:Key="BeginCustomStyle" BasedOn="{StaticResource BlockCustomStyle}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type blocks:Block}">
+                    <Border>
+                        <Grid>
+                            <cntrls:TextBoxNotEditable x:Name="rootBlock" BorderBrush="Transparent" Text="{TemplateBinding Text}" Style="{DynamicResource ovalTextBlockStyle}" 
+                                                       Padding="{TemplateBinding Padding}" Foreground="{TemplateBinding RootColor}"
+                                                       IsEdit="{Binding RelativeSource={RelativeSource AncestorType=blocks:Block}, Path=IsBlockSelect, Mode=TwoWay}"
+                                                       cntrls:TextBoxNotEditableExtensions.MouseDownHandled="False">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="PreviewMouseDoubleClick">
+                                        <i:ChangePropertyAction PropertyName="IsEdit" Value="True">
+                                        </i:ChangePropertyAction>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="LostKeyboardFocus">
+                                        <i:ChangePropertyAction PropertyName="IsEdit" Value="False">
+                                        </i:ChangePropertyAction>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </cntrls:TextBoxNotEditable>
+
+                            <Line HorizontalAlignment="Left" Stretch="Fill" X1="0" Y1="0" X2="1" Y2="0" x:Name="setHC" Width="{TemplateBinding ActualWidth, Converter={StaticResource multiply}, ConverterParameter=0.5}"/>
+
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="blocks:Block" x:Key="EndCustomStyle" BasedOn="{StaticResource BlockCustomStyle}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type blocks:Block}">
+                    <Border>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <shapes:Arrow Style="{DynamicResource arrowStyle}" StartPoint="3">
+                            </shapes:Arrow>
+                            <cntrls:TextBoxNotEditable x:Name="rootBlock" BorderBrush="Transparent" Text="{TemplateBinding Text}" Style="{DynamicResource ovalTextBlockStyle}" 
+                                                       IsEdit="{Binding RelativeSource={RelativeSource AncestorType=blocks:Block}, Path=IsBlockSelect, Mode=TwoWay}"
+                                                       Foreground="{TemplateBinding RootColor}" Padding="{TemplateBinding Padding}"
+                                                       cntrls:TextBoxNotEditableExtensions.MouseDownHandled="False" Grid.Row="1">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="PreviewMouseDoubleClick">
+                                        <i:ChangePropertyAction PropertyName="IsEdit" Value="True">
+                                        </i:ChangePropertyAction>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="LostKeyboardFocus">
+                                        <i:ChangePropertyAction PropertyName="IsEdit" Value="False">
+                                        </i:ChangePropertyAction>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </cntrls:TextBoxNotEditable>
+                            <Line HorizontalAlignment="Left" Stretch="Fill" X1="0" Y1="0" X2="1" Y2="0" x:Name="setHC" Width="{TemplateBinding ActualWidth, Converter={StaticResource multiply}, ConverterParameter=0.5}"/>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="blocks:Block" x:Key="InputCustomStyle" BasedOn="{StaticResource BlockCustomStyle}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type blocks:Block}">
+                    <Border>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <shapes:Arrow Style="{DynamicResource arrowStyle}" StartPoint="3">
+                            </shapes:Arrow>
+                            <Line Stretch="Fill" X1="0" Y1="0" X2="1" Y2="0" HorizontalAlignment="Left" x:Name="setHC" Width="{TemplateBinding ActualWidth, Converter={StaticResource multiply}, ConverterParameter=0.5}"/>
+                            <cntrls:TextBoxNotEditable HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="rootBlock" 
+                                                       TextWrapping="Wrap" AcceptsReturn="True" BorderBrush="Transparent"
+                                                       IsEdit="{Binding RelativeSource={RelativeSource AncestorType=blocks:Block}, Path=IsBlockSelect, Mode=TwoWay}"
+                                                       Text="{TemplateBinding Text}" Style="{DynamicResource inputTextBlockStyle}" 
+                                                       Padding="{TemplateBinding Padding}" Foreground="{TemplateBinding RootColor}"
+                                                       cntrls:TextBoxNotEditableExtensions.MouseDownHandled="False" Grid.Row="1">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="PreviewMouseDoubleClick">
+                                        <i:ChangePropertyAction PropertyName="IsEdit" Value="True">
+                                        </i:ChangePropertyAction>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="LostKeyboardFocus">
+                                        <i:ChangePropertyAction PropertyName="IsEdit" Value="False">
+                                        </i:ChangePropertyAction>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </cntrls:TextBoxNotEditable>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+    <Style TargetType="blocks:Block" x:Key="OutputCustomStyle" BasedOn="{StaticResource InputCustomStyle}"/>
+
+    <Style TargetType="blocks:BlockMethod" x:Key="MethodBlockCustomStyle" BasedOn="{StaticResource BlockCustomStyle}">
+    </Style>
+
+    <Style TargetType="blocks:MultiChildBlockBase" x:Key="multiChildBlockBaseStyle" BasedOn="{StaticResource BlockCustomStyle}">
+        <Setter Property="BottomPadding" Value="10"/>
+        <Setter Property="Text" Value="x?"/>
+    </Style>
+
+    <Style x:Key="CycleBlockCustomStyle" TargetType="{x:Type blocks:BlockCycle}" BasedOn="{StaticResource BlockCustomStyle}">
+        <Style.Triggers>
+            <Trigger Property="IsYesPanelSelect" Value="True">
+                <Setter Property="TrueColor" Value="{StaticResource SelectColor}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="{x:Type blocks:BlockCycle}" x:Key="PostCycleBlockCustomStyle" BasedOn="{StaticResource ResourceKey = CycleBlockCustomStyle}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type blocks:BlockCycle}">
+                    <Border>
+                        <blocks:AutoCanvas>
+
+                            <Polyline Points="0,0,0,1,1,1" Stroke="{TemplateBinding TrueColor}" Stretch="Fill" blocks:AutoCanvas.Left="{TemplateBinding BottomPadding}" blocks:AutoCanvas.Top="{TemplateBinding BottomPadding}">
+                                <Polyline.Width>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding"/>
+                                    </MultiBinding>
+                                </Polyline.Width>
+                                <Polyline.Height>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="ActualHeight"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="-1"/>
+                                    </MultiBinding>
+                                </Polyline.Height>
+                            </Polyline>
+
+                            <shapes:Arrow Rotate="Right" Style="{DynamicResource arrowStyle}" Stroke="{TemplateBinding TrueColor}" blocks:AutoCanvas.Left="{TemplateBinding BottomPadding}" Height="{TemplateBinding BottomPadding, Converter={StaticResource multiply}, ConverterParameter=2}">
+                                <shapes:Arrow.Width>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding"/>
+                                    </MultiBinding>
+                                </shapes:Arrow.Width>
+                            </shapes:Arrow>
+
+                            <Polyline Points="0,0,1,0,1,1,0,1" Stroke="{TemplateBinding RootColor}" Stretch="Fill">
+                                <blocks:AutoCanvas.Top>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="ActualHeight"/>
+                                        <Binding ElementName="rootBlock" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="-0.5"/>
+                                        <Binding ElementName="yesLine" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="-1"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Top>
+                                <blocks:AutoCanvas.Left>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Left>
+                                <Polyline.Height>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="yesLine" Path="ActualHeight"/>
+                                        <Binding ElementName="rootBlock" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding"/>
+                                    </MultiBinding>
+                                </Polyline.Height>
+                                <Polyline.Width>
+                                    <MultiBinding Converter="{StaticResource max}" ConverterParameter="1">
+                                        <Binding ElementName="rootBlock" Path="ActualWidth" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                        <Binding ElementName="noText" Path="ActualWidth"/>
+
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding"/>
+                                        <Binding ElementName="Pnl" Path="ActualWidth"/>
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter" Converter="{StaticResource multiply}" ConverterParameter="-1"/>
+                                    </MultiBinding>
+                                </Polyline.Width>
+                            </Polyline>
+
+                            <TextBlock x:Name="noText" Text="{TemplateBinding FalseText}" Foreground="{TemplateBinding Foreground}" Background="{TemplateBinding Background}">
+                                <blocks:AutoCanvas.Top>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="ActualHeight"/>
+                                        <Binding ElementName="rootBlock" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="-0.5"/>
+                                        <Binding ElementName="yesLine" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="-1"/>
+                                        <Binding RelativeSource="{RelativeSource Mode=Self}" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="-1"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Top>
+                                <blocks:AutoCanvas.Left>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                        <Binding ElementName="rootBlock" Path="ActualWidth" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Left>
+                            </TextBlock>
+
+                            <blocks:BlockPanel x:Name="Pnl" blocks:AutoCanvas.Left="{TemplateBinding BottomPadding, Converter={StaticResource multiply}, ConverterParameter=2}">
+                                <Grid>
+                                    <Line X1="0" Y1="0" X2="0" Y2="1" Stretch="Fill" Style="{DynamicResource lineStyle}" Stroke="{TemplateBinding TrueColor}" Height="{TemplateBinding BottomPadding, Converter={StaticResource multiply}, ConverterParameter=2}"/>
+                                </Grid>
+                                <blocks:ContentPresenterWithHorizontalCenter Content="{TemplateBinding TrueSource}"/>
+                                <shapes:Arrow Height="{TemplateBinding BottomPadding}" Style="{DynamicResource arrowStyle}" Width="{TemplateBinding BottomPadding}"/>
+                                <cntrls:TextBoxNotEditable x:Name="rootBlock" Style="{DynamicResource conditionBlockStyle}" Foreground="{TemplateBinding RootColor}" 
+                                                           IsEdit="{Binding RelativeSource={RelativeSource AncestorType=blocks:BlockCycle}, Path=IsBlockSelect, Mode=TwoWay}"
+                                                           Text="{Binding RelativeSource={RelativeSource AncestorType=blocks:BlockCycle}, Path=Text, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                                       cntrls:TextBoxNotEditableExtensions.MouseDownHandled="False" Background="{TemplateBinding Background}">
+                                    <i:Interaction.Triggers>
+                                        <i:EventTrigger EventName="PreviewMouseDoubleClick">
+                                            <i:ChangePropertyAction PropertyName="IsEdit" Value="True">
+                                            </i:ChangePropertyAction>
+                                        </i:EventTrigger>
+                                        <i:EventTrigger EventName="LostKeyboardFocus">
+                                            <i:ChangePropertyAction PropertyName="IsEdit" Value="False">
+                                            </i:ChangePropertyAction>
+                                        </i:EventTrigger>
+                                    </i:Interaction.Triggers>
+                                </cntrls:TextBoxNotEditable>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Line x:Name="yesLine" Grid.Column="1" X1="0" Y1="0" X2="0" Y2="1" Stretch="Fill" Style="{DynamicResource lineStyle}" Stroke="{TemplateBinding TrueColor}" MinHeight="{TemplateBinding BottomPadding}"/>
+                                    <TextBlock Text="{TemplateBinding TrueText}" Padding="5,0,0,0" Grid.Column="2" x:Name="yesText" Foreground="{TemplateBinding Foreground}" Background="{TemplateBinding Background}"/>
+                                    <Rectangle Width="{Binding ElementName=yesText, Path=ActualWidth}"/>
+                                    <Rectangle Grid.ColumnSpan="3" x:Name="selectYesBlock" Stretch="Fill" Fill="Transparent"/>
+                                </Grid>
+                            </blocks:BlockPanel>
+
+                            <Line X1="0" Y1="0" X2="1" Y2="0" x:Name="setHC">
+                                <Line.Width>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                    </MultiBinding>
+                                </Line.Width>
+                            </Line>
+
+                        </blocks:AutoCanvas>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="{x:Type blocks:BlockCycle}" x:Key="ForCycleBlockCustomStyle" BasedOn="{StaticResource CycleBlockCustomStyle}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type blocks:BlockCycle}">
+                    <Border>
+                        <blocks:AutoCanvas>
+                            
+                            <TextBlock x:Name="noText" Text="{TemplateBinding FalseText}" Foreground="{TemplateBinding Foreground}" Background="{TemplateBinding Background}">
+                                <blocks:AutoCanvas.Top>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                        <Binding RelativeSource="{RelativeSource Mode=Self}" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="-1"/>
+                                        <Binding ElementName="rootBlock" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Top>
+                                <blocks:AutoCanvas.Left>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                        <Binding ElementName="rootBlock" Path="ActualWidth" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Left>
+                            </TextBlock>
+
+                            <Polyline Stretch="Fill" Points="0,0,1,0,1,1,0,1" Stroke="{TemplateBinding RootColor}">
+                                <Polyline.Height>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="3"/>
+                                        <Binding ElementName="yesBlock" Path="ActualHeight"/>
+                                        <Binding ElementName="rootBlock" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                    </MultiBinding>
+                                </Polyline.Height>
+                                <Polyline.Width>
+                                    <MultiBinding Converter="{StaticResource max}" ConverterParameter="2">
+                                        <Binding ElementName="Pnl" Path="ActualWidth"/>
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter" Converter="{StaticResource multiply}" ConverterParameter="-1"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding"/>
+
+                                        <Binding ElementName="rootBlock" Path="ActualWidth" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding"/>
+                                        <Binding ElementName="noText" Path="ActualWidth"/>
+                                    </MultiBinding>
+                                </Polyline.Width>
+                                
+                                <blocks:AutoCanvas.Top>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                        <Binding ElementName="rootBlock" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Top>
+                                <blocks:AutoCanvas.Left>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Left>
+                            </Polyline>
+
+                            <blocks:BlockPanel x:Name="Pnl"
+                                  blocks:AutoCanvas.Left="{TemplateBinding BottomPadding, Converter={StaticResource multiply}, ConverterParameter=2}">
+                                <shapes:Arrow x:Name="topArrow" Style="{DynamicResource arrowStyle}" Stroke="{TemplateBinding Foreground}" Width="{TemplateBinding BottomPadding}" Height="{TemplateBinding BottomPadding, Converter={StaticResource multiply}, ConverterParameter=2}">
+
+                                </shapes:Arrow>
+
+                                <cntrls:TextBoxNotEditable x:Name="rootBlock" Style="{DynamicResource conditionForStyle}" Foreground="{TemplateBinding RootColor}"
+                                                           IsEdit="{Binding RelativeSource={RelativeSource AncestorType=blocks:BlockCycle}, Path=IsBlockSelect, Mode=TwoWay}"
+                                                           Text="{Binding RelativeSource={RelativeSource AncestorType=blocks:BlockCycle}, Path=Text, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                                       cntrls:TextBoxNotEditableExtensions.MouseDownHandled="False" Background="{TemplateBinding Background}">
+                                    <i:Interaction.Triggers>
+                                        <i:EventTrigger EventName="PreviewMouseDoubleClick">
+                                            <i:ChangePropertyAction PropertyName="IsEdit" Value="True">
+                                            </i:ChangePropertyAction>
+                                        </i:EventTrigger>
+                                        <i:EventTrigger EventName="LostKeyboardFocus">
+                                            <i:ChangePropertyAction PropertyName="IsEdit" Value="False">
+                                            </i:ChangePropertyAction>
+                                        </i:EventTrigger>
+                                    </i:Interaction.Triggers>
+                                </cntrls:TextBoxNotEditable>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Line Grid.Column="1" X1="0" Y1="0" X2="0" Y2="1" Stretch="Fill" Style="{DynamicResource lineStyle}" Stroke="{TemplateBinding TrueColor}" MinHeight="{TemplateBinding BottomPadding}"/>
+                                    <TextBlock Text="{TemplateBinding TrueText}" Padding="5,0,0,0" Grid.Column="2" x:Name="yesText" Foreground="{TemplateBinding Foreground}" Background="{TemplateBinding Background}"/>
+                                    <Rectangle Width="{Binding ElementName=yesText, Path=ActualWidth}"/>
+                                    <Rectangle Grid.ColumnSpan="3" x:Name="selectYesBlock" Stretch="Fill" Fill="Transparent"/>
+                                </Grid>
+                                <blocks:ContentPresenterWithHorizontalCenter Content="{TemplateBinding TrueSource}" x:Name="yesBlock"/>
+                                <Line X1="0" Y1="0" X2="0" Y2="1" Height="{TemplateBinding BottomPadding}" Stretch="Fill" Style="{DynamicResource lineStyle}" Stroke="{TemplateBinding TrueColor}"/>
+                            </blocks:BlockPanel>
+                            
+
+                            <Line X1="0" Y1="0" X2="1" Y2="0" Stretch="Fill" x:Name="setHC">
+                                <Line.Width>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                    </MultiBinding>
+                                </Line.Width>
+                            </Line>
+
+                            <Polyline Stroke="{TemplateBinding TrueColor}" Stretch="Fill" Points="0,0,0,1,1,1"
+                                      blocks:AutoCanvas.Left="{TemplateBinding BottomPadding}">
+                                <blocks:AutoCanvas.Top>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="topArrow" Path="ActualHeight"/>
+                                        <Binding ElementName="rootBlock" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Top>
+                                <Polyline.Width>
+                                    <MultiBinding Converter="{StaticResource max}" ConverterParameter="1">
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding"/>
+
+                                        <Binding ElementName="rootBlock" Path="ActualWidth" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding"/>
+                                    </MultiBinding>
+                                </Polyline.Width>
+                                <Polyline.Height>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="ActualHeight"/>
+                                        <Binding ElementName="topArrow" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="-1"/>
+                                        <Binding ElementName="rootBlock" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="-0.5"/>
+                                    </MultiBinding>
+                                </Polyline.Height>
+                            </Polyline>
+
+                            <shapes:Arrow Style="{DynamicResource arrowStyle}" Stroke="{TemplateBinding TrueColor}" Rotate="Right" blocks:AutoCanvas.Left="{TemplateBinding BottomPadding}"
+                                          Height="{Binding ElementName=rootBlock, Path=ActualHeight}" blocks:AutoCanvas.Top="{Binding ElementName=topArrow, Path=ActualHeight}">
+                                <shapes:Arrow.Width>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding"/>
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                        <Binding ElementName="rootBlock" Path="ActualWidth" Converter="{StaticResource multiply}" ConverterParameter="-0.5"/>
+                                    </MultiBinding>
+                                </shapes:Arrow.Width>
+                            </shapes:Arrow>
+
+
+                        </blocks:AutoCanvas>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="IfBlockCustomStyle" TargetType="{x:Type blocks:BlockIf}" BasedOn="{StaticResource multiChildBlockBaseStyle}">
+        <Style.Triggers>
+            <Trigger Property="IsNoPanelSelect" Value="True">
+                <Setter Property="FalseColor" Value="{StaticResource SelectColor}"/>
+            </Trigger>
+            <Trigger Property="IsYesPanelSelect" Value="True">
+                <Setter Property="TrueColor" Value="{StaticResource SelectColor}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="blocks:SwitchBlock" x:Key="SwitchBlockCustomStyle" BasedOn="{StaticResource multiChildBlockBaseStyle}">
+    </Style>
+
+</ResourceDictionary>

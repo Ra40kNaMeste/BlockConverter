@@ -1,0 +1,101 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AppDesignerFolder>Resources</AppDesignerFolder>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Themes\ThemeResources\LightThemeResources\AddBlockButton.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\AddScheme.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\CloseButton.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\ConvertButton.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\CopyBlocksButton.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\FalseAddBlockButton.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\FalseConvertButton.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\FalseCopyBlocksButton.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\FalsePasteBlocksButton.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\FalseRedoArrow.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\FalseRemoveBlockButton.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\FalseUndoArrow.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\PasteBlocksButton.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\RedoArrow.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\RemoveBlockButton.png" />
+    <None Remove="Themes\ThemeResources\LightThemeResources\UndoArrow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="6.0.0-preview.4.21253.7" />
+    <PackageReference Include="System.ObjectModel" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlocksLib\BlocksLib.csproj" />
+    <ProjectReference Include="..\ModelConverterToBlock\ModelConverterToBlock.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DefaultResource\DefaultPropertyConverters.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Themes\ThemeResources\LightThemeResources\AddBlockButton.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\ThemeResources\LightThemeResources\CloseButton.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\ThemeResources\LightThemeResources\AddScheme.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Themes\ThemeResources\LightThemeResources\ConvertButton.png" />
+    <Resource Include="Themes\ThemeResources\LightThemeResources\CopyBlocksButton.png" />
+    <Resource Include="Themes\ThemeResources\LightThemeResources\FalseAddBlockButton.png" />
+    <Resource Include="Themes\ThemeResources\LightThemeResources\FalseConvertButton.png" />
+    <Resource Include="Themes\ThemeResources\LightThemeResources\FalseCopyBlocksButton.png" />
+    <Resource Include="Themes\ThemeResources\LightThemeResources\FalsePasteBlocksButton.png" />
+    <Resource Include="Themes\ThemeResources\LightThemeResources\FalseRedoArrow.png" />
+    <Resource Include="Themes\ThemeResources\LightThemeResources\FalseRemoveBlockButton.png" />
+    <Resource Include="Themes\ThemeResources\LightThemeResources\FalseUndoArrow.png" />
+    <Resource Include="Themes\ThemeResources\LightThemeResources\PasteBlocksButton.png" />
+    <Resource Include="Themes\ThemeResources\LightThemeResources\RedoArrow.png" />
+    <Resource Include="Themes\ThemeResources\LightThemeResources\RemoveBlockButton.png" />
+    <Resource Include="Themes\ThemeResources\LightThemeResources\UndoArrow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controls\" />
+  </ItemGroup>
+
+
+</Project>

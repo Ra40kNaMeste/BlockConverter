@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Page Update="BlocksList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Block.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\BlockCycle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\BlockEmpty.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\BlockIf.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\CustomTheme\MethodStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Standart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\generic.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\MethodBlock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\StandartTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\SwitchBlock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

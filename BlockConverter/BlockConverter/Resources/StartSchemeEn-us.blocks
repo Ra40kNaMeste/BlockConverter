@@ -1,0 +1,28 @@
+{
+  "$id": "1",
+  "$type": "ModelConverterToBlock.Blocks.BeginBlockComponent, ModelConverterToBlock",
+  "Name": "NewScheme",
+  "Content": "Open BlockConverter",
+  "Next": {
+    "$id": "2",
+    "$type": "ModelConverterToBlock.Blocks.BlockIfComponent, ModelConverterToBlock",
+    "FalseBlock": {
+      "$id": "3",
+      "$type": "ModelConverterToBlock.Blocks.BlockComponent, ModelConverterToBlock",
+      "Content": "Write scheme",
+      "Next": null
+    },
+    "TrueBlock": {
+      "$id": "4",
+      "$type": "ModelConverterToBlock.Blocks.BlockComponent, ModelConverterToBlock",
+      "Content": "Convert code to scheme",
+      "Next": null
+    },
+    "Content": "Use code?",
+    "Next": {
+      "$id": "5",
+      "$type": "ModelConverterToBlock.Blocks.BlockEndComponent, ModelConverterToBlock",
+      "Content": "Close BlockConverter"
+    }
+  }
+}

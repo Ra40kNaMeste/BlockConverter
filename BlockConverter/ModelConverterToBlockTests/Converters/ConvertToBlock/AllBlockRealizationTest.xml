@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dates>
+	<Data Name="Context">
+		<Property Name="prop"/>
+		<ByPattern Name ="pattern" Pattern="\Aname"/>
+		<ArrayParams Name="arr" Start="(" End=")" Links="a=#(prop)" Separator="," InizLevel="1"/>
+		<Body Name="body" Start="(" End=")"/>
+		<BlockText Name="block" EdWord=";"/>
+		<Optional Name="optional" IsOnlyOne="true" InizLevel="1">
+			<Chaines>
+				<Chain Template="opt=#(prop)">
+					<Properties>
+						<Property Name="Output" Value="#(prop)"/>
+					</Properties>
+				</Chain>
+				<Chain Template="Opt=#(prop)">
+					<Properties>
+						<Property Name="Output" Value="#(prop)"/>
+					</Properties>
+				</Chain>
+			</Chaines>
+			<Properties>
+				<Property Name="Output"/>
+			</Properties>
+		</Optional>
+	</Data>
+	<Data Name="Switch" Content="#(prop)" ChildBlocks="#(arr)">
+		<Realizations>
+			<Realization Template="switch prop=#(prop); arr=#(arr)"/>
+		</Realizations>
+	</Data>
+	<Data Name="If" Content="?#(pattern)?" TrueBlock="#(body)" FalseBlock="#(block)">
+		<Realizations>
+			<Realization Template="#(pattern);body=#(body);block=#(block)"/>
+		</Realizations>
+	</Data>
+	<Data Name="Operation" Content="#(optional)">
+		<Realizations>
+			<Realization Template="#(optional)"/>
+		</Realizations>
+	</Data>
+
+</Dates>

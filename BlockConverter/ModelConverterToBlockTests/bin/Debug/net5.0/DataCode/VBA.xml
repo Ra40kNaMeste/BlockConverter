@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dates>
+	<Data Name="Context">
+		<Property Name="Name"/>
+		<Property Name="Type"/>
+		<BlockText Name="FuncBody" IsIncludeNextWord="false" EndWord="End Sub"/>
+		<BlockText Name="IfCondition" IsIncludeNextWord="false" EndWord="Then"/>
+		<BlockText Name="ForCondition" IsIncludeNextWord="false" EndWord="To"/>
+		<BlockText Name="IfBody1" IsIncludeNextWord="false" EndWord="Else"/>
+		<BlockText Name="IfBody2" IsIncludeNextWord="false" EndWord="End If"/>
+		<BlockText Name="CycleBody" IsIncludeNextWord="false" EndWord="Loop"/>
+		<BlockText Name="ForBody" IsIncludeNextWord="false" EndWord="Next"/>
+		<BlockText Name="BlockTextOperation" IsIncludeNextWord="false">
+			<EndWord Regex="&#xA;"/>
+		</BlockText>
+	</Data>
+	<Data Name="If" Content="#(IfCondition)?" TrueBlock="#(IfBody1)" FalseBlock="#(IfBody2)">
+		<Realizations>
+			<Realization Template="#(!w)If#(*s)#(IfCondition)#(*s)#(IfBody1)#(*s)#(IfBody2)#(!w)"/>
+			<Realization Template="#(!w)If#(*s)#(IfCondition)#(*s)#(IfBody2)#(!w)" TrueBlock="#(IfBody2)"
+						 FalseBlock=""/>
+		</Realizations>
+	</Data>
+	<Data Name="Function" Content="" OutputContent="" ChildBlocks="#(FuncBody)">
+		<Realizations>
+			<Realization Template="#(!w)Sub#(*s)#(Name)()#(!w)#(FuncBody)"/>
+		</Realizations>
+	</Data>
+	<Data Name="Cycle" Content="#(BlockTextOperation)" ChildBlocks="#(CycleBody)">
+		<Realizations>
+			<Realization Template="#(!w)Do#(*s)While#(*s)#(BlockTextOperation)#(*s)#(CycleBody)#(!w)"/>
+		</Realizations>
+	</Data>
+	<Data Name="PostCycle" Content="" ChildBlocks="">
+		<Realizations>
+			<Realization Template="None"/>
+		</Realizations>
+	</Data>
+	<Data Name="ForCycle" Content="#(ForCondition) to #(BlockTextOperation)" ChildBlocks="#(ForBody)">
+		<Realizations>
+			<Realization Template="#(!w)For#(ForCondition)#(*s)#(BlockTextOperation)#(*s)#(ForBody)#(!w)"/>
+		</Realizations>
+	</Data>
+	<Data Name="Operation" Content="#(BlockTextOperation)">
+		<Realizations>
+			<Realization Template="#(!w)#(BlockTextOperation)"/>
+		</Realizations>
+	</Data>
+	<Data Name="Input" Content="">
+		<Realizations>
+			<Realization Template="none"/>
+		</Realizations>
+	</Data>
+	<Data Name="Output" Content="">
+		<Realizations>
+			<Realization Template="none"/>
+		</Realizations>
+	</Data>
+</Dates>

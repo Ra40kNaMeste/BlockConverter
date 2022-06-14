@@ -1,0 +1,38 @@
+{
+  "$id": "1",
+  "$type": "ModelConverterToBlock.Blocks.BeginBlockComponent, ModelConverterToBlock",
+  "Name": "NewScheme",
+  "Content": "Open BlockConverter",
+  "Next": {
+    "$id": "2",
+    "$type": "ModelConverterToBlock.Blocks.BlockComponent, ModelConverterToBlock",
+    "Content": "Открыть BlockConverter",
+    "Next": {
+      "$id": "3",
+      "$type": "ModelConverterToBlock.Blocks.BlockIfComponent, ModelConverterToBlock",
+      "FalseBlock": {
+        "$id": "4",
+        "$type": "ModelConverterToBlock.Blocks.BlockComponent, ModelConverterToBlock",
+        "Content": "Составить схему самостоятельно",
+        "Next": null
+      },
+      "TrueBlock": {
+        "$id": "5",
+        "$type": "ModelConverterToBlock.Blocks.BlockComponent, ModelConverterToBlock",
+        "Content": "Конвертировать код в схему",
+        "Next": null
+      },
+      "Content": "Использовать код?",
+      "Next": {
+        "$id": "6",
+        "$type": "ModelConverterToBlock.Blocks.BlockComponent, ModelConverterToBlock",
+        "Content": "Закрыть BlockConverter",
+        "Next": {
+          "$id": "7",
+          "$type": "ModelConverterToBlock.Blocks.BlockEndComponent, ModelConverterToBlock",
+          "Content": "Close BlockConverter"
+        }
+      }
+    }
+  }
+}

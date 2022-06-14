@@ -1,0 +1,234 @@
+{
+  "$type": "System.Collections.Generic.Dictionary`2[[ModelConverterToBlock.Converters.Reader.BlockConstruction, ModelConverterToBlock],[ModelConverterToBlock.Converters.ConvertToBlock.IPropertyValueConverterTemplate, ModelConverterToBlock]], System.Private.CoreLib",
+  "Input": {
+    "$type": "ModelConverterToBlock.Converters.ConvertToBlock.OnePropertyValueConverterTemplate, ModelConverterToBlock",
+    "Converter": {
+      "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+      "Successor": {
+        "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+        "Word": "",
+        "Successor": {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+          "Successor": null
+        }
+      }
+    }
+  },
+  "Cycle": {
+    "$type": "ModelConverterToBlock.Converters.ConvertToBlock.OnePropertyValueConverterTemplate, ModelConverterToBlock",
+    "Converter": {
+      "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+      "Successor": {
+        "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyAppendWordValueConverter, ModelConverterToBlock",
+        "Direction": 1,
+        "Word": "?",
+        "Successor": {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+          "Word": "",
+          "Successor": {
+            "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+            "Successor": null
+          }
+        }
+      }
+    }
+  },
+  "PostCycle": {
+    "$type": "ModelConverterToBlock.Converters.ConvertToBlock.OnePropertyValueConverterTemplate, ModelConverterToBlock",
+    "Converter": {
+      "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+      "Successor": {
+        "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyAppendWordValueConverter, ModelConverterToBlock",
+        "Direction": 1,
+        "Word": "?",
+        "Successor": {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+          "Word": "",
+          "Successor": {
+            "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+            "Successor": null
+          }
+        }
+      }
+    }
+  },
+  "ForCycle": {
+    "$type": "ModelConverterToBlock.Converters.ConvertToBlock.OnePropertyValueConverterTemplate, ModelConverterToBlock",
+    "Converter": {
+      "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+      "Successor": {
+        "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyAppendWordValueConverter, ModelConverterToBlock",
+        "Direction": 1,
+        "Word": "?",
+        "Successor": {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+          "Word": "",
+          "Successor": {
+            "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+            "Successor": null
+          }
+        }
+      }
+    }
+  },
+  "If": {
+    "$type": "ModelConverterToBlock.Converters.ConvertToBlock.OnePropertyValueConverterTemplate, ModelConverterToBlock",
+    "Converter": {
+      "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+      "Successor": {
+        "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyAppendWordValueConverter, ModelConverterToBlock",
+        "Direction": 1,
+        "Word": "?",
+        "Successor": {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+          "Word": "",
+          "Successor": {
+            "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+            "Successor": null
+          }
+        }
+      }
+    }
+  },
+  "Function": {
+    "$type": "ModelConverterToBlock.Converters.ConvertToBlock.MultiPropertyValueConverterTemlplate, ModelConverterToBlock",
+    "Converters": {
+      "$type": "System.Collections.Generic.List`1[[ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+          "Successor": {
+            "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+            "Word": "",
+            "Successor": {
+              "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+              "Successor": null
+            }
+          }
+        },
+        {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+          "Successor": {
+            "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyAppendWordValueConverter, ModelConverterToBlock",
+            "Direction": 0,
+            "Word": "Передача ",
+            "Successor": {
+              "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyIfNotValueConverter, ModelConverterToBlock",
+              "Word": "Начало",
+              "Successor": {
+                "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+                "Word": ", ",
+                "Successor": {
+                  "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+                  "Successor": null
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Switch": {
+    "$type": "ModelConverterToBlock.Converters.ConvertToBlock.OnePropertyValueConverterTemplate, ModelConverterToBlock",
+    "Converter": {
+      "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+      "Successor": {
+        "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyAppendWordValueConverter, ModelConverterToBlock",
+        "Direction": 1,
+        "Word": "?",
+        "Successor": {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+          "Word": "",
+          "Successor": {
+            "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+            "Successor": null
+          }
+        }
+      }
+    }
+  },
+  "None": {
+    "$type": "ModelConverterToBlock.Converters.ConvertToBlock.OnePropertyValueConverterTemplate, ModelConverterToBlock",
+    "Converter": {
+      "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+      "Successor": {
+        "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+        "Word": "",
+        "Successor": {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+          "Successor": null
+        }
+      }
+    }
+  },
+  "Operation": {
+    "$type": "ModelConverterToBlock.Converters.ConvertToBlock.OnePropertyValueConverterTemplate, ModelConverterToBlock",
+    "Converter": {
+      "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+      "Successor": {
+        "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+        "Word": "",
+        "Successor": {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+          "Successor": null
+        }
+      }
+    }
+  },
+  "Method": {
+    "$type": "ModelConverterToBlock.Converters.ConvertToBlock.MultiPropertyValueConverterTemlplate, ModelConverterToBlock",
+    "Converters": {
+      "$type": "System.Collections.Generic.List`1[[ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+          "Successor": {
+            "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+            "Word": "",
+            "Successor": {
+              "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+              "Successor": null
+            }
+          }
+        },
+        {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+          "Successor": {
+            "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+            "Word": "",
+            "Successor": {
+              "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+              "Successor": null
+            }
+          }
+        },
+        {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+          "Successor": {
+            "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+            "Word": "",
+            "Successor": {
+              "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+              "Successor": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Output": {
+    "$type": "ModelConverterToBlock.Converters.ConvertToBlock.OnePropertyValueConverterTemplate, ModelConverterToBlock",
+    "Converter": {
+      "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyEmptyValueConverter, ModelConverterToBlock",
+      "Successor": {
+        "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
+        "Word": "",
+        "Successor": {
+          "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyCleanExcapeSymbolsValueConverter, ModelConverterToBlock",
+          "Successor": null
+        }
+      }
+    }
+  }
+}

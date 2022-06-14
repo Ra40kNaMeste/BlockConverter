@@ -1,0 +1,36 @@
+﻿foo
+{
+	  Name = a;
+}
+result:true
+next
+foo
+{
+      Name =    
+      a;
+}
+result:true
+next
+foo
+{
+      Name= a;
+}
+result:false
+next
+foo
+{
+      Name = gg a;
+}
+result:false
+next
+foo
+{
+      Name =a;
+}
+result:true
+next
+foo
+{
+      Name = * a;
+}
+result:false

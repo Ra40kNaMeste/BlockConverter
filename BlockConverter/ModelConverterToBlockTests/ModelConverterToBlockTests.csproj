@@ -1,0 +1,104 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.1" />
+    <PackageReference Include="coverlet.collector" Version="1.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModelConverterToBlock\ModelConverterToBlock.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Converters\ConvertToBlock\c_sharpCorrect.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\ConvertToBlock\c_sharpNotContext.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\ConvertToBlock\OneSwitch.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\StretchPropertyDataTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\StretchPropertyDataTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\OptionalLinkReaderTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\OptionalLinkReaderTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\ArrayParamsReaderTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\ArrayParamsReaderTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\BodyReaderTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\BodyReaderTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\WordReaderTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\WordReaderTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\ByPatternReaderTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\ByPatternReaderTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\PropertyDataTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\PropertyDataTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\BlockTextToWordTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\BlockTextToWordTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\SpaceSkiperTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\SpaceSkiperTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\NotWordSkiperTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\NotWordSkiperTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\WordSkiperTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\WordSkiperTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\SkiperTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Converters\Reader\LinkersTests\LinkersTestsDates\SkiperTests.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

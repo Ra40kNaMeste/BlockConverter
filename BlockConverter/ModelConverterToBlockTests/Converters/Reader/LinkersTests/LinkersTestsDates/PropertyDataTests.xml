@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dates>
+	<Data Name="Context">
+		<Property Name="Name"/>
+    <Body Name="CycleBody" Start="{" End="}"/>
+  </Data>
+  <Data Name="Function" Content="#(Name)" ChildBlocks="#(CycleBody)" EndBlockContent="#(Name)">
+    <Realizations>
+      <Realization Template="#(!w)#(Name)#(*s)#(CycleBody)"/>
+    </Realizations>
+  </Data>
+
+  <Data Name="Operation" Content="#(Name)">
+		<Realizations>
+			<Realization Template="#(Name);"/>
+		</Realizations>
+	</Data>
+</Dates>

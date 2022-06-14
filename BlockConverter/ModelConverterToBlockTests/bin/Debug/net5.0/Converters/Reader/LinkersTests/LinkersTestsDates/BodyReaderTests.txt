@@ -1,0 +1,23 @@
+﻿foo
+{
+	  (a);
+}
+result:true
+next
+foo
+{
+	((a);
+}
+result:false
+next
+foo
+{
+	(a));
+}
+result:true
+next
+foo
+{
+	((a)b);
+}
+result:false

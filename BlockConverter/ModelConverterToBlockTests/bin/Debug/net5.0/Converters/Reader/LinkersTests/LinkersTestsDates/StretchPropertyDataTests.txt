@@ -1,0 +1,11 @@
+﻿foo
+{
+	  (ab);
+}
+result:true
+next
+foo
+{
+	a b+;
+}
+result:false

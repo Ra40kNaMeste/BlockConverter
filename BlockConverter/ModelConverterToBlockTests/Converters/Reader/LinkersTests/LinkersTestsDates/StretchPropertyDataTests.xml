@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dates>
+	<Data Name="Context">
+		<Property Name="Name"/>
+    <StretchProperty Name="Stretch"/>
+    <Body Name="OperBody" Start="(" End=")" Links="#(Stretch)" InizLevel="2"/>
+    <Body Name="CycleBody" Start="{" End="}"/>
+    <ArrayParams Name="FuncInput" Links="#(!w)#(Name)#(*s)" Separator="," InizLevel="1"/>
+  </Data>
+  <Data Name="Function" Content="#(Name)" ChildBlocks="#(CycleBody)" EndBlockContent="#(Name)">
+    <Realizations>
+      <Realization Template="#(!w)#(Name)#(*s)#(CycleBody)"/>
+    </Realizations>
+  </Data>
+
+  <Data Name="Operation" Content="#(OperBody.Stretch)">
+		<Realizations>
+			<Realization Template="#(OperBody);"/>
+      <Realization Template="#(Name)#(Stretch)+;" Content="#(Stretch)"/>
+    </Realizations>
+	</Data>
+</Dates>

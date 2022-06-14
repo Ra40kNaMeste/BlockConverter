@@ -1,0 +1,17 @@
+﻿foo
+{
+	  noLinks=abab;
+}
+result:true
+next
+foo
+{
+	noLinks=ab;ab
+}
+result:false
+next
+foo 
+{
+	links=   ab    ;
+}
+result:true

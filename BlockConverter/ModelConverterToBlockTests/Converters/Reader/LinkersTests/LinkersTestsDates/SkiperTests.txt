@@ -1,0 +1,23 @@
+﻿foo
+{
+	  Name1=a gg wp Name2=b;
+}
+result:true
+next
+foo
+{
+	Name1=a Name2=b;
+}
+result:true
+next
+foo
+{
+	Name1=aggwp
+}
+result:false
+next
+foo
+{
+	Name1=aName2=b;
+}
+result:false

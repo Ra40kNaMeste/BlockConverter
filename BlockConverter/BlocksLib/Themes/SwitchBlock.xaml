@@ -1,0 +1,134 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:blocks="clr-namespace:BlocksLib.Blocks"
+                    xmlns:shapes="clr-namespace:BlocksLib.Blocks.Shapes"
+                    xmlns:tools="clr-namespace:BlocksLib.Blocks.Tools"
+                    xmlns:cntrls="clr-namespace:BlocksLib.Blocks.CustomControls"
+                    xmlns:i="http://schemas.microsoft.com/xaml/behaviors">
+    <tools:ConverterMultiply x:Key="multiply"/>
+    <tools:ConverterMax x:Key="max"/>
+    <tools:ConverterSwitchThicknessToWidth x:Key="swToWidth"/>
+
+    <Style TargetType="{x:Type blocks:SwitchBlock}">
+        <Setter Property="BottomPadding" Value="10"/>
+        <Setter Property="Text" Value="x?"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type blocks:SwitchBlock}">
+                    <Border>
+                        <blocks:BlockPanel>
+                            <shapes:Arrow Style="{DynamicResource arrowStyle}" Stroke="{TemplateBinding Foreground}" Width="{TemplateBinding BottomPadding}" Height="{TemplateBinding BottomPadding}" HorizontalAlignment="Center"/>
+                            <Line x:Name="setHC" Stroke="Transparent" X1="0" Y1="0" X2="1" Y2="0" Stretch="Fill"
+                                  Width="{Binding RelativeSource={RelativeSource AncestorType=blocks:BlockPanel}, Path=HorizontalCenter}"/>
+                            <cntrls:TextBoxNotEditable x:Name="rootBlock" Style="{DynamicResource conditionBlockStyle}" Foreground="{TemplateBinding RootColor}" 
+                                                           IsEdit="{Binding RelativeSource={RelativeSource AncestorType=blocks:SwitchBlock}, Path=IsBlockSelect, Mode=TwoWay}"
+                                                           Text="{Binding RelativeSource={RelativeSource AncestorType=blocks:SwitchBlock}, Path=Text, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                                       cntrls:TextBoxNotEditableExtensions.MouseDownHandled="False" Background="{TemplateBinding Background}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="PreviewMouseDoubleClick">
+                                        <i:ChangePropertyAction PropertyName="IsEdit" Value="True">
+                                        </i:ChangePropertyAction>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="LostKeyboardFocus">
+                                        <i:ChangePropertyAction PropertyName="IsEdit" Value="False">
+                                        </i:ChangePropertyAction>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </cntrls:TextBoxNotEditable>
+                            <Grid>
+                                <Line Style="{DynamicResource lineAddSwitchItemStyle}" X1="0" Y1="0" X2="0" Y2="1" Stretch="Fill" HorizontalAlignment="Center" Height="{TemplateBinding BottomPadding}">
+
+                                </Line>
+                                <Rectangle Width="{TemplateBinding BottomPadding}" Height="{TemplateBinding BottomPadding}" Fill="Transparent">
+                                    <i:Interaction.Triggers>
+                                        <i:EventTrigger EventName="MouseDown">
+                                            <i:InvokeCommandAction Command="{Binding RelativeSource={RelativeSource AncestorType=blocks:SwitchBlock}, Path=AddItem}"/>
+                                        </i:EventTrigger>
+                                    </i:Interaction.Triggers>
+                                </Rectangle>
+                            </Grid>
+                            <blocks:AutoCanvas blocks:BlockPanel.Center="{Binding ElementName=itemsViewer, Path=HorizontalCenter}">
+                                <Line X1="0" Y1="0" X2="1" Y2="0" Stretch="Fill" Style="{DynamicResource lineStyle}" blocks:AutoCanvas.Left="{Binding ElementName=itemsViewer, Path=HCExtremeElements.Left}">
+                                    <Line.Width>
+                                        <MultiBinding Converter="{StaticResource swToWidth}">
+                                            <Binding ElementName="itemsViewer" Path="HCExtremeElements"/>
+                                            <Binding ElementName="itemsViewer" Path="ActualWidth"/>
+                                        </MultiBinding>
+                                    </Line.Width>
+                                </Line>
+
+                                <blocks:SwitchPanel x:Name="itemsViewer" HorizontalAlignment="Center" BorderBrush="Transparent" ItemsSource="{Binding RelativeSource={RelativeSource AncestorType=blocks:SwitchBlock}, Path=Items}">
+                                    <blocks:SwitchPanel.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <StackPanel Orientation="Horizontal"/>
+                                        </ItemsPanelTemplate>
+                                    </blocks:SwitchPanel.ItemsPanel>
+                                    <blocks:SwitchPanel.ItemTemplate>
+                                        <DataTemplate DataType="{x:Type blocks:SwitchBlockItem}">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="{Binding RelativeSource={RelativeSource AncestorType=blocks:SwitchBlock}, Path=BottomPadding}"/>
+                                                    <ColumnDefinition/>
+                                                    <ColumnDefinition Width="{Binding RelativeSource={RelativeSource AncestorType=blocks:SwitchBlock}, Path=BottomPadding}"/>
+                                                </Grid.ColumnDefinitions>
+                                                <blocks:BlockPanel Grid.Column="1" HorizontalAlignment="Center">
+                                                    <Grid>
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition/>
+                                                            <ColumnDefinition Width="{Binding ElementName=key, Path=ActualHeight}"/>
+                                                        </Grid.ColumnDefinitions>
+                                                        <TextBox Name="key" HorizontalAlignment="Center" BorderBrush="Transparent">
+                                                            <TextBox.Text>
+                                                                <Binding Path="Key" Mode="TwoWay">
+                                                                    <Binding.ValidationRules>
+                                                                        <DataErrorValidationRule ValidationStep="UpdatedValue"/>
+                                                                    </Binding.ValidationRules>
+                                                                </Binding>
+                                                            </TextBox.Text>
+                                                            <TextBox.LayoutTransform>
+                                                                <RotateTransform Angle="90"/>
+                                                            </TextBox.LayoutTransform>
+                                                        </TextBox>
+                                                        <Line Style="{DynamicResource selectLineSwitchItemStyle}" Grid.ColumnSpan="2" Width="{Binding RelativeSource={RelativeSource AncestorType=blocks:SwitchBlock}, Path=BottomPadding}"
+                                                            Stretch="Fill" X1="0" Y1="0" X2="0" Y2="1" HorizontalAlignment="Center"
+                                                            MinHeight="{Binding RelativeSource={RelativeSource AncestorType=blocks:SwitchBlock}, Path=BottomPadding}">
+                                                        </Line>
+                                                        <Rectangle Grid.Column="1" Stretch="Fill" Fill="Transparent">
+                                                            <i:Interaction.Triggers>
+                                                                <i:EventTrigger EventName="MouseDown">
+                                                                    <i:InvokeCommandAction Command="{Binding SelectItem}"/>
+                                                                </i:EventTrigger>
+                                                            </i:Interaction.Triggers>
+                                                        </Rectangle>
+
+                                                    </Grid>
+                                                    <blocks:ContentPresenterWithHorizontalCenter Content="{Binding Value}" Grid.Row="2"/>
+                                                    <Line Grid.Row="3" Width="{Binding RelativeSource={RelativeSource AncestorType=blocks:SwitchBlock}, Path=BottomPadding}"
+                                                      Stroke="Black" Stretch="Fill" X1="0" Y1="0" X2="0" Y2="1" HorizontalAlignment="Center"
+                                                      MinHeight="{Binding RelativeSource={RelativeSource AncestorType=blocks:SwitchBlock}, Path=BottomPadding}"/>
+
+                                                </blocks:BlockPanel>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </blocks:SwitchPanel.ItemTemplate>
+                                </blocks:SwitchPanel>
+
+                                <Line X1="0" Y1="0" X2="1" Y2="0" Stretch="Fill" Style="{DynamicResource lineStyle}" blocks:AutoCanvas.Left="{Binding ElementName=itemsViewer, Path=HCExtremeElements.Left}" blocks:AutoCanvas.Top="{Binding ElementName=itemsViewer, Path=ActualHeight}">
+                                    <Line.Width>
+                                        <MultiBinding Converter="{StaticResource swToWidth}">
+                                            <Binding ElementName="itemsViewer" Path="HCExtremeElements"/>
+                                            <Binding ElementName="itemsViewer" Path="ActualWidth"/>
+                                        </MultiBinding>
+                                    </Line.Width>
+                                </Line>
+                            </blocks:AutoCanvas>
+                            <Line Style="{DynamicResource lineStyle}" X1="0" Y1="0" X2="0" Y2="1" Stretch="Fill" HorizontalAlignment="Center" Height="{TemplateBinding BottomPadding}">
+                            </Line>
+                        </blocks:BlockPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

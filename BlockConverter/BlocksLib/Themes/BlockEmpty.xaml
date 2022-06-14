@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:blocks="clr-namespace:BlocksLib.Blocks"
+                    xmlns:shapes="clr-namespace:BlocksLib.Blocks.Shapes"
+                    xmlns:tools="clr-namespace:BlocksLib.Blocks.Tools">
+    <tools:ConverterMultiply x:Key="multiply"/>
+    <Style TargetType="{x:Type blocks:BlockEmpty}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type blocks:BlockEmpty}">
+                    <Border>
+                        <Grid>
+                            <Line Name="line" Style="{DynamicResource lineStyle}" X1="0.5" Y1="0" X2="0.5" Y2="1" Stretch="Fill"/>
+                            <Line X1="0" Y1="0" X2="1" Y2="0" x:Name="setHC" Width="{Binding ElementName=line, Path=ActualWidth, Converter={StaticResource multiply}, ConverterParameter=0.5}"/>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

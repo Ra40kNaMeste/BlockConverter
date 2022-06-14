@@ -1,0 +1,158 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:blocks="clr-namespace:BlocksLib.Blocks"
+                    xmlns:shapes="clr-namespace:BlocksLib.Blocks.Shapes"
+                    xmlns:tools="clr-namespace:BlocksLib.Blocks.Tools"
+                    xmlns:cntrls="clr-namespace:BlocksLib.Blocks.CustomControls"
+                    xmlns:i="http://schemas.microsoft.com/xaml/behaviors">
+    <tools:ConverterMultiply x:Key="multiply"/>
+    <tools:ConverterSumm x:Key="summ"/>
+    <tools:ConverterMax x:Key="max"/>
+    <tools:ConverterDoubleToThicness x:Key="toThicness"/>
+    
+    <Style TargetType="{x:Type blocks:BlockCycle}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type blocks:BlockCycle}">
+                    <Border>
+                        <blocks:AutoCanvas>
+                            <TextBlock x:Name="noText" Text="{TemplateBinding FalseText}" Foreground="{TemplateBinding Foreground}" Background="{TemplateBinding Background}">
+                                <blocks:AutoCanvas.Top>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                        <Binding ElementName="rootBlock" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                        <Binding RelativeSource="{RelativeSource Mode=Self}" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="-1"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Top>
+                                <blocks:AutoCanvas.Left>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                        <Binding ElementName="rootBlock" Path="ActualWidth" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Left>
+                            </TextBlock>
+                            
+                            <Polyline Stretch="Fill" Points="0,0,1,0,1,1,0,1" Stroke="{TemplateBinding RootColor}">
+                                <Polyline.Height>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                        <Binding ElementName="yesBlock" Path="ActualHeight"/>
+                                        <Binding ElementName="rootBlock" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                        <Binding ElementName="selectYesBlock" Path="ActualHeight"/>
+                                    </MultiBinding>
+                                </Polyline.Height>
+                                <Polyline.Width>
+                                    <MultiBinding Converter="{StaticResource max}" ConverterParameter="2">
+                                        <Binding ElementName="Pnl" Path="ActualWidth"/>
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter" Converter="{StaticResource multiply}" ConverterParameter="-1"/>
+                                        <Binding ElementName="noText" Path="ActualWidth"/>
+
+                                        <Binding ElementName="rootBlock" Path="ActualWidth" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                        <Binding ElementName="noText" Path="ActualWidth"/>
+                                    </MultiBinding>
+                                </Polyline.Width>
+                                <blocks:AutoCanvas.Top>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                        <Binding ElementName="rootBlock" Path="ActualHeight" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Top>
+                                <blocks:AutoCanvas.Left>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                    </MultiBinding>
+                                </blocks:AutoCanvas.Left>
+                            </Polyline>
+                            
+                            
+                            <blocks:BlockPanel x:Name="Pnl"
+                                  blocks:AutoCanvas.Left="{TemplateBinding BottomPadding, Converter={StaticResource multiply}, ConverterParameter=2}">
+                                <shapes:Arrow Style="{DynamicResource arrowStyle}" Stroke="{TemplateBinding Foreground}" Width="{TemplateBinding BottomPadding}" Height="{TemplateBinding BottomPadding, Converter={StaticResource multiply}, ConverterParameter=2}">
+
+                                </shapes:Arrow>
+
+                                <cntrls:TextBoxNotEditable x:Name="rootBlock" Style="{DynamicResource conditionBlockStyle}" Foreground="{TemplateBinding RootColor}" 
+                                                           IsEdit="{Binding RelativeSource={RelativeSource AncestorType=blocks:BlockCycle}, Path=IsBlockSelect, Mode=TwoWay}"
+                                                           Text="{Binding RelativeSource={RelativeSource AncestorType=blocks:BlockCycle}, Path=Text, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                                       cntrls:TextBoxNotEditableExtensions.MouseDownHandled="False" Background="{TemplateBinding Background}">
+                                    <i:Interaction.Triggers>
+                                        <i:EventTrigger EventName="PreviewMouseDoubleClick">
+                                            <i:ChangePropertyAction PropertyName="IsEdit" Value="True">
+                                            </i:ChangePropertyAction>
+                                        </i:EventTrigger>
+                                        <i:EventTrigger EventName="LostKeyboardFocus">
+                                            <i:ChangePropertyAction PropertyName="IsEdit" Value="False">
+                                            </i:ChangePropertyAction>
+                                        </i:EventTrigger>
+                                    </i:Interaction.Triggers>
+                                </cntrls:TextBoxNotEditable>
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Line Grid.Column="1" X1="0" Y1="0" X2="0" Y2="1" Stretch="Fill" Style="{DynamicResource lineStyle}" Stroke="{TemplateBinding TrueColor}" MinHeight="{TemplateBinding BottomPadding}"/>
+                                    <TextBlock Text="{TemplateBinding TrueText}" Padding="5,0,0,0" Grid.Column="2" x:Name="yesText" Foreground="{TemplateBinding Foreground}" Background="{TemplateBinding Background}"/>
+                                    <Rectangle Width="{Binding ElementName=yesText, Path=ActualWidth}"/>
+                                    <Rectangle Grid.ColumnSpan="3" x:Name="selectYesBlock" Stretch="Fill" Fill="Transparent"/>
+                                </Grid>
+                                <blocks:ContentPresenterWithHorizontalCenter Content="{TemplateBinding TrueSource}" x:Name="yesBlock"/>
+                                <Line X1="0" Y1="0" X2="0" Y2="1" Height="{TemplateBinding BottomPadding}" Stretch="Fill" Style="{DynamicResource lineStyle}" Stroke="{TemplateBinding TrueColor}"/>
+                            </blocks:BlockPanel>
+
+                            <Line X1="0" Y1="0" X2="1" Y2="0" Stretch="Fill" x:Name="setHC">
+                                <Line.Width>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="2"/>
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                    </MultiBinding>
+                                </Line.Width>
+                            </Line>
+
+                            
+
+                            <Polyline Stroke="{TemplateBinding TrueColor}" Stretch="Fill" Points="0,0,0,1,1,1"
+                                      blocks:AutoCanvas.Top="{TemplateBinding BottomPadding}" blocks:AutoCanvas.Left="{TemplateBinding BottomPadding}">
+                                <Polyline.Width>
+                                    <MultiBinding Converter="{StaticResource max}" ConverterParameter="1">
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding"/>
+
+                                        <Binding ElementName="rootBlock" Path="ActualWidth" Converter="{StaticResource multiply}" ConverterParameter="0.5"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding"/>
+                                    </MultiBinding>
+                                </Polyline.Width>
+                                <Polyline.Height>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding ElementName="Pnl" Path="ActualHeight"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding" Converter="{StaticResource multiply}" ConverterParameter="-1"/>
+                                    </MultiBinding>
+                                </Polyline.Height>
+                            </Polyline>
+
+                            <shapes:Arrow Style="{DynamicResource arrowStyle}" Stroke="{TemplateBinding TrueColor}" Rotate="Right" blocks:AutoCanvas.Left="{TemplateBinding BottomPadding}"
+                                          Height="{TemplateBinding BottomPadding, Converter={StaticResource multiply}, ConverterParameter=2}">
+                                <shapes:Arrow.Width>
+                                    <MultiBinding Converter="{StaticResource summ}">
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockCycle}" Path="BottomPadding"/>
+                                        <Binding ElementName="Pnl" Path="HorizontalCenter"/>
+                                    </MultiBinding>
+                                </shapes:Arrow.Width>
+                            </shapes:Arrow>
+
+
+                        </blocks:AutoCanvas>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="BottomPadding" Value="10"/>
+        <Setter Property="Text" Value="x?"/>
+    </Style>
+
+
+</ResourceDictionary>

@@ -1,0 +1,11 @@
+#(*)#(w)#(Name)#(*s)(#(*s)#(type)#(*s)#(prop)#(*s))#(*)
+public void foo(int a)
+public void foo(int f) ga (hs mi) 
+#(*)name=#(Name)#(*)(#(*s)#(type)#(*s)#(prop)#(*s))#(*)
+azaza name=alex xoxo Noname (Int i)
+#(*)name=#(Name)#(*)(#(*s)#(type)#(*s)#(prop)#(*s))#(*s)#(name=body;start={;end=};)
+azaza name=alex xoxo Noname (Int i) {No My Bode}
+#(name=body;start={;end=};)#(*)name=#(Name)#(*)
+{Hi My Baby} azaza name=Name zusu
+arr(#(name=body;start={;end=};))
+arr(int a int b)

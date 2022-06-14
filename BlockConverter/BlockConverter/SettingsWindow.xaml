@@ -1,0 +1,185 @@
+﻿<Window x:Class="BlockConverter.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:vm="clr-namespace:BlockConverter.ViewModels.SettingViewModel"
+        xmlns:cr="clr-namespace:BlockConverter.Tools"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:res="clr-namespace:BlockConverter.Resources"
+        xmlns:local="clr-namespace:BlockConverter"
+        mc:Ignorable="d"
+        Title="Settings" Height="600" Width="700">
+    <Window.Resources>
+        <cr:PropertyToStringVisualNameConverter x:Key="nameConverter"/>
+        <cr:StringToPropertyConverter x:Key="propConverter"/>
+        <cr:KeyToStringVisualWordConverter x:Key="keyConverter"/>
+        <cr:VisualPropertiesConverter x:Key="visualProperties"/>
+        <cr:StyleNameConverter x:Key="styleNameConverter"/>
+        <cr:BlockNameToStringVisualWordConverter x:Key="blockNameConverter"/>
+        <Style TargetType="GridViewColumnHeader" x:Key="notVisibilityStyle">
+            <Setter Property="Visibility" Value="Collapsed"/>
+        </Style>
+    </Window.Resources>
+    <Grid MinHeight="50" MinWidth="50">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <TabControl TabStripPlacement="Left">
+            <TabItem Header="{x:Static res:Resources.GeneralSettingsHeader}"
+                      DataContext="{Binding GeneralSettings}">
+                <ScrollViewer>
+                    <Grid>
+                        <ListBox ItemsSource="{Binding Settings}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Border>
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="auto"/>
+                                                <RowDefinition Height="auto"/>
+                                            </Grid.RowDefinitions>
+                                            <TextBlock Text="{Binding Key}"/>
+                                            <Border CornerRadius="5" Background="Gray">
+                                                <ListView ItemsSource="{Binding Value.VisualSettings}">
+                                                    <ListView.View>
+                                                        <GridView ColumnHeaderContainerStyle="{StaticResource notVisibilityStyle}">
+                                                            <GridViewColumn DisplayMemberBinding="{Binding Key}"/>
+                                                            <GridViewColumn>
+                                                                <GridViewColumn.CellTemplate>
+                                                                    <DataTemplate>
+                                                                        <ContentPresenter Content="{Binding Value.ShowValue}"/>
+                                                                    </DataTemplate>
+                                                                </GridViewColumn.CellTemplate>
+                                                            </GridViewColumn>
+                                                        </GridView>
+                                                    </ListView.View>
+                                                </ListView>
+                                            </Border>
+                                        </Grid>
+                                    </Border> 
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="{x:Static res:Resources.VisualConvertersSettingsHeader}">
+                <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                    <TabControl ItemsSource="{Binding PropertyConverters}" TabStripPlacement="Left" SelectedItem="{Binding SelectConverterCollection}">
+                        <TabControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Key, Converter={StaticResource keyConverter}}"/>
+                            </DataTemplate>
+                        </TabControl.ItemTemplate>
+                        <TabControl.ContentTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition Height="auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <ListBox Grid.ColumnSpan="2" ItemsSource="{Binding Value}" SelectedItem="{Binding Path=Value.Select}">
+                                        <ListBox.ItemTemplate>
+                                            <DataTemplate>
+                                                <ItemsControl ItemsSource="{Binding RelativeSource={RelativeSource Mode=Self}, Path=DataContext, Converter={StaticResource visualProperties}}">
+                                                    <ItemsControl.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <StackPanel Orientation="Horizontal"/>
+                                                        </ItemsPanelTemplate>
+                                                    </ItemsControl.ItemsPanel>
+                                                </ItemsControl>
+                                            </DataTemplate>
+                                        </ListBox.ItemTemplate>
+                                    </ListBox>
+                                    <StackPanel Grid.Row="1">
+                                        <ListBox Grid.Row="1" ItemsSource="{Binding Path=Value.InputConverters}" SelectedItem="{Binding Path=Value.SelectInputConverter}"/>
+                                        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center">
+                                            <Button Content="{x:Static res:Resources.AddPropertyValueConverter}" Command="{Binding Path=Value.AddCommand}"
+                                                CommandParameter="{Binding ElementName=converterList, Path=SelectedItem, 
+                                             UpdateSourceTrigger=PropertyChanged}"/>
+                                            <Button Content="{x:Static res:Resources.InsertPropertyValueConverter}" Command="{Binding Path=Value.InsertCommand}"
+                                                CommandParameter="{Binding ElementName=converterList, Path=SelectedItem, 
+                                            UpdateSourceTrigger=PropertyChanged}"/>
+                                            <Button Content="{x:Static res:Resources.RemovePropertyValueConverter}" Command="{Binding Path=Value.RemoveCommand}"
+                                                CommandParameter="{Binding ElementName=converterList, Path=SelectedItem, 
+                                            UpdateSourceTrigger=PropertyChanged}"/>
+                                        </StackPanel>
+                                    </StackPanel>
+                                    <Grid Grid.Row="1" Grid.Column="1">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="{x:Static res:Resources.InputSampleForPropertyValueConverter}"/>
+                                        <TextBlock Text="{x:Static res:Resources.OutputSampleForPropertyValueConverter}" Grid.Row="1"/>
+                                        
+                                        <ItemsControl Grid.Column="1" ItemsSource="{Binding Path=Value.InputValues}">
+                                            <ItemsControl.ItemsPanel>
+                                                <ItemsPanelTemplate>
+                                                    <StackPanel Orientation="Horizontal"/>
+                                                </ItemsPanelTemplate>
+                                            </ItemsControl.ItemsPanel>
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <TextBlock Text="{Binding RelativeSource={RelativeSource Mode=Self}, Path=DataContext}" Margin="5"/>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Path=Value.OutputValue, UpdateSourceTrigger=PropertyChanged}"/>
+
+                                        <TextBlock Text="None" Grid.Column="2"/>
+                                        <TextBlock Grid.Row="1" Grid.Column="2" Text="{Binding Path=Value.OutputByZeroValue, UpdateSourceTrigger=PropertyChanged}"/>
+                                    </Grid>
+                                </Grid>
+                            </DataTemplate>
+                        </TabControl.ContentTemplate>
+                    </TabControl>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="{x:Static res:Resources.StylesSettingsHeader}">
+                <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                    <TabControl TabStripPlacement="Left" ItemsSource="{Binding StyleManager.BlocksStyles}">
+                        <TabControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Key, Converter={StaticResource blockNameConverter}}"/>
+                            </DataTemplate>
+                        </TabControl.ItemTemplate>
+                        <TabControl.ContentTemplate>
+                            <DataTemplate>
+                                <ListView ItemsSource="{Binding Value.Styles}" SelectedItem="{Binding Value.SelectStyle}">
+                                    <ListView.View>
+                                        <GridView>
+                                            <GridViewColumn Header="{x:Static res:Resources.NameStyleColumnSettings}" Width="auto" 
+                                                            DisplayMemberBinding="{Binding Name, Converter={StaticResource styleNameConverter}}"/>
+                                            <GridViewColumn Header="{x:Static res:Resources.VisualStyleColumnSettings}" Width="250">
+                                                <GridViewColumn.CellTemplate>
+                                                    <DataTemplate>
+                                                        <ContentPresenter Content="{Binding Block}"/>
+                                                    </DataTemplate>
+                                                </GridViewColumn.CellTemplate>
+                                            </GridViewColumn>
+                                        </GridView>
+                                    </ListView.View>
+                                </ListView>
+                            </DataTemplate>
+
+                        </TabControl.ContentTemplate>
+                    </TabControl>
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Button Content="{x:Static res:Resources.SettingsAcceptCommand}" Command="{Binding Accept}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"/>
+        </StackPanel>
+    </Grid>
+</Window>

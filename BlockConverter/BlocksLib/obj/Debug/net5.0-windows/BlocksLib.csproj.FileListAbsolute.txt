@@ -1,0 +1,83 @@
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.csproj.AssemblyReference.cache
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksList.baml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib_MarkupCompile.cache
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib_MarkupCompile.lref
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\Block.baml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\BlockCycle.baml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\BlockEmpty.baml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\BlockIf.baml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\StandartTheme.baml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\ref\BlocksLib.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.pdb
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\bin\Debug\net5.0-windows\BlocksLib.deps.json
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\bin\Debug\net5.0-windows\BlocksLib.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\bin\Debug\net5.0-windows\ref\BlocksLib.dll
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\bin\Debug\net5.0-windows\BlocksLib.pdb
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.g.resources
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.GeneratedMSBuildEditorConfig.editorconfig
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.AssemblyInfoInputs.cache
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.AssemblyInfo.cs
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.csproj.CoreCompileInputs.cache
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\SwitchBlock.baml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\generic.baml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\MethodBlock.baml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\bin\Debug\net5.0-windows\BlocksLib.deps.json
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\bin\Debug\net5.0-windows\BlocksLib.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\bin\Debug\net5.0-windows\ref\BlocksLib.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\bin\Debug\net5.0-windows\BlocksLib.pdb
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.csprojAssemblyReference.cache
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksList.baml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\generic.baml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib_MarkupCompile.cache
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib_MarkupCompile.lref
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\Block.baml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\BlockCycle.baml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\BlockEmpty.baml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\BlockIf.baml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\MethodBlock.baml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\StandartTheme.baml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\SwitchBlock.baml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.g.resources
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.AssemblyInfoInputs.cache
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.AssemblyInfo.cs
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.csproj.CoreCompileInputs.cache
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\ref\BlocksLib.dll
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.pdb
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\CustomTheme\MethodStyles.baml
+D:\Projects\BlockConverter\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\Standart.baml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\CustomTheme\MethodStyles.baml
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\Standart.baml
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\bin\Debug\net5.0-windows\BlocksLib.deps.json
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\bin\Debug\net5.0-windows\BlocksLib.dll
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\bin\Debug\net5.0-windows\ref\BlocksLib.dll
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\bin\Debug\net5.0-windows\BlocksLib.pdb
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.csprojAssemblyReference.cache
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksList.baml
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\generic.baml
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib_MarkupCompile.cache
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib_MarkupCompile.lref
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\Block.baml
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\BlockCycle.baml
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\BlockEmpty.baml
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\BlockIf.baml
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\CustomTheme\MethodStyles.baml
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\MethodBlock.baml
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\Standart.baml
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\StandartTheme.baml
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\Themes\SwitchBlock.baml
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.g.resources
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.AssemblyInfoInputs.cache
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.AssemblyInfo.cs
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.csproj.CoreCompileInputs.cache
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.dll
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\ref\BlocksLib.dll
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.pdb
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.Resources.Resources.resources
+D:\Projects\BlockConverter\BlockConverter\BlocksLib\obj\Debug\net5.0-windows\BlocksLib.csproj.GenerateResource.cache

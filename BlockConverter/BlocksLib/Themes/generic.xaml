@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        
+        
+        <ResourceDictionary Source="/BlocksLib;component/Themes/Standart.xaml"/>
+        <ResourceDictionary Source="/BlocksLib;component/Themes/StandartTheme.xaml"/>
+        <ResourceDictionary Source="/BlocksLib;component/Themes/Block.xaml"/>
+        <ResourceDictionary Source="/BlocksLib;component/Themes/BlockIf.xaml"/>
+        <ResourceDictionary Source="/BlocksLib;component/Themes/BlockCycle.xaml"/>
+        <ResourceDictionary Source="/BlocksLib;component/Themes/BlockEmpty.xaml"/>
+        <ResourceDictionary Source="/BlocksLib;component/Themes/SwitchBlock.xaml"/>
+        <ResourceDictionary Source="/BlocksLib;component/Themes/MethodBlock.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dates>
+	<Data Name="Context">
+		<ArrayParams Name="FuncInput" Start="(" End=")" Links="#(!w)#(Type)#(!w)#(Name)#(*s)" Separator="," InizLevel="1"/>
+		<Property Name="Name"/>
+    <Property Name="Prop"/>
+		<Property Name="Type"/>
+		<Body Name="Condition" Start="(" End=")"/>
+		<Body Name="CycleBody" Start="{" End="}"/>
+		<BlockText Name="BlockTextBody" IsIncludeNextWord="true" EndWord=";"/>
+    <BlockText Name="BlockTextOperation" IsIncludeNextWord="false" EndWord=";"/>
+    <ByPattern Name="InputOperation" Pattern="name="/>
+    <Optional Name="NoBody" IsOnlyOne="false" InizLevel="1">
+      <Chaines>
+        <Chain Template="else#(*s)#(CycleBody)">
+          <Properties>
+            <Property Name="Output" Value="#(CycleBody)"/>
+          </Properties>
+        </Chain>
+        <Chain Template="else#(*s)#(BlockTextBody)">
+          <Properties>
+            <Property Name="Output" Value="#(BlockTextBody)"/>
+          </Properties>
+        </Chain>
+      </Chaines>
+      <Properties>
+        <Property Name="Output"/>
+      </Properties>
+    </Optional>
+    <Optional Name="YesBody" IsOnlyOne="true" InizLevel="1">
+      <Chaines>
+        <Chain Template="#(CycleBody)">
+          <Properties>
+            <Property Name="Output" Value="#(CycleBody)"/>
+          </Properties>
+        </Chain>
+        <Chain Template="#(BlockTextBody)">
+          <Properties>
+            <Property Name="Output" Value="#(BlockTextBody)"/>
+          </Properties>
+        </Chain>
+      </Chaines>
+      <Properties>
+        <Property Name="Output"/>
+      </Properties>
+    </Optional>
+    
+	</Data>
+	<Data Name="If" Content="#(Condition)?" TrueBlock="#(YesBody.Output)" FalseBlock="#(NoBody.Output)">
+		<Realizations>
+			<Realization Template="#(!w)if#(*s)#(Condition)#(*s)#(YesBody)#(*s)#(NoBody)"/>
+		</Realizations>
+	</Data>
+	<Data Name="Function" Content="#(FuncInput.Name)" OutputContent="#(Type)" ChildBlocks="#(CycleBody)">
+		<Realizations>
+			<Realization Template="#(!w)#(Type)#(!w)#(Name)#(*s)#(FuncInput)#(*s)#(CycleBody)"/>
+			<Realization Template="#(!w)#(Type)#(!w)#(Name)#(*s)#(FuncInput)#(*s)=>#(*s)#(YesBody)"
+						 ChildBlocks="#(YesBody.Output)"/>
+		</Realizations>
+	</Data>
+	<Data Name="Cycle" Content="#(Condition)" ChildBlocks="#(YesBody.Output)">
+		<Realizations>
+			<Realization Template="#(!w)while#(*s)#(Condition)#(*s)#(YesBody)"/>
+		</Realizations>
+	</Data>
+  <Data Name="PostCycle" Content="#(Condition)" ChildBlocks="#(YesBody.Output)">
+    <Realizations>
+      <Realization Template="#(!w)do#(*s)#(YesBody)#(*s)while#(*s)#(Condition)#(*s)"/>
+    </Realizations>
+  </Data>
+  <Data Name="ForCycle" Content="#(Condition)" ChildBlocks="#(YesBody.Output)">
+    <Realizations>
+      <Realization Template="#(!w)for#(*s)#(Condition)#(*s)#(YesBody)"/>
+    </Realizations>
+  </Data>
+  <Data Name="Operation" Content="#(BlockTextOperation)">
+		<Realizations>
+			<Realization Template="#(BlockTextOperation)"/>
+		</Realizations>
+	</Data>
+  <Data Name="Input" Content="#(Name)">
+    <Realizations>
+      <Realization Template="#(!w)#(Name)#(*s)=#(*s)Console.ReadLine();"/>
+    </Realizations>
+  </Data>
+  <Data Name="Output" Content="#(Condition)">
+    <Realizations>
+      <Realization Template="Console.WrileLine#(*s)#(Condition)#(*s);"/>
+    </Realizations>
+  </Data>
+</Dates>

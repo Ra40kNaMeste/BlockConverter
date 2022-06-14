@@ -1,0 +1,62 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:blocks="clr-namespace:BlocksLib.Blocks"
+                    xmlns:shapes="clr-namespace:BlocksLib.Blocks.Shapes"
+                    xmlns:tools="clr-namespace:BlocksLib.Blocks.Tools"
+                    xmlns:cntrls="clr-namespace:BlocksLib.Blocks.CustomControls"
+                    xmlns:i="http://schemas.microsoft.com/xaml/behaviors">
+
+
+    <tools:ConverterMultiply x:Key="multiply"/>
+    <tools:ConverterSumm x:Key="summ"/>
+    <tools:ConverterThicnessToHeight x:Key="toHeight"/>
+    <tools:ConverterThicnessToWidth x:Key="toWidth"/>
+    <tools:MethodPropertiesToTextConverter x:Key="toText"/>
+
+    <Style TargetType="{x:Type blocks:BlockMethod}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type blocks:BlockMethod}">
+                    <Border>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <shapes:Arrow Style="{DynamicResource arrowStyle}" StartPoint="3">
+                            </shapes:Arrow>
+                            <Line Stretch="Fill" X1="0" Y1="0" X2="1" Y2="0" HorizontalAlignment="Left" x:Name="setHC" Width="{TemplateBinding ActualWidth, Converter={StaticResource multiply}, ConverterParameter=0.5}"/>
+
+                            <cntrls:TextBoxNotEditable x:Name="rootBlock" IsEdit="{Binding RelativeSource={RelativeSource AncestorType=blocks:BlockMethod}, Path=IsBlockSelect, Mode=TwoWay}" Style="{DynamicResource methodTextBlockStyle}" 
+                                                       Padding="{TemplateBinding Padding}" Foreground="{TemplateBinding RootColor}" Grid.Row="1"
+                                                      cntrls:TextBoxNotEditableExtensions.MouseDownHandled="False" Background="{TemplateBinding Background}">
+                                <cntrls:TextBoxNotEditable.Text>
+                                    <MultiBinding Converter="{StaticResource toText}" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockMethod}" Path="Output"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockMethod}" Path="Text"/>
+                                        <Binding RelativeSource="{RelativeSource AncestorType=blocks:BlockMethod}" Path="Input"/>
+                                    </MultiBinding>
+                                </cntrls:TextBoxNotEditable.Text>
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="PreviewMouseDoubleClick">
+                                        <i:ChangePropertyAction PropertyName="IsEdit" Value="True">
+                                        </i:ChangePropertyAction>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="LostFocus">
+                                        <i:ChangePropertyAction PropertyName="IsEdit" Value="False">
+                                        </i:ChangePropertyAction>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </cntrls:TextBoxNotEditable>
+
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Padding" Value="5"/>
+        <Setter Property="Text" Value="func"/>
+        <Setter Property="Input" Value="x"/>
+        <Setter Property="Output" Value="y"/>
+    </Style>
+</ResourceDictionary>

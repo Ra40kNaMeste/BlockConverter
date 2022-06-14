@@ -1,0 +1,20 @@
+﻿BlockConverter
+1.0.0.0
+
+winexe
+C#
+.cs
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlockConverter\obj\Debug\net5.0-windows10.0.17763.0\
+BlockConverter
+none
+false
+TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+F:\Лёши\Projects\VS проекты\BlockConverter\BlockConverter\BlockConverter\App.xaml
+201677261982
+
+24-214383653
+196-1256956785
+Blocks\Block.xaml;Blocks\BlockCycle.xaml;Blocks\BlockEmpty.xaml;Blocks\BlockIf.xaml;Blocks\BlockList.xaml;Blocks\BlockPanel.xaml;Blocks\BlockPostCycle.xaml;Blocks\ChildsBlocks\ConditionBlock.xaml;Blocks\Shapes\Arrow.xaml;Blocks\Shapes\StarAngleLine.xaml;MainWindow.xaml;Themes\Block.xaml;Themes\BlockCycle.xaml;Themes\BlockEmpty.xaml;Themes\BlockIf.xaml;Themes\BlockList.xaml;Themes\BlockPostCycle.xaml;Themes\ConditionBlock.xaml;Themes\Elementary\Standart.xaml;Themes\generic.xaml;
+
+True
+

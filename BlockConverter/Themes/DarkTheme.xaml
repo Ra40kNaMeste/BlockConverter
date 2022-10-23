@@ -1,0 +1,184 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:BlockConverter.Themes"
+                    xmlns:cntrls="clr-namespace:BlocksLib.Blocks.CustomControls;assembly=BlocksLib">
+    <Style TargetType="Button" x:Key="BaseStyleButton">
+        <Setter Property="MaxHeight" Value="30"/>
+        <Setter Property="MaxWidth" Value="60"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+    </Style>
+    <Style TargetType="Button" x:Key="AddBlockButtonStyle" BasedOn="{StaticResource BaseStyleButton}">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/AddBlockButton.png" Stretch="Uniform"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/FalseAddBlockButton.png" Stretch="Uniform"/>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="Button" x:Key="RemoveBlockButtonStyle" BasedOn="{StaticResource BaseStyleButton}">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/RemoveBlockButton.png" Stretch="Uniform"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/FalseRemoveBlockButton.png" Stretch="Uniform"/>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="Button" x:Key="UndoButtonStyle" BasedOn="{StaticResource BaseStyleButton}">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/UndoArrow.png" Stretch="Uniform"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/FalseUndoArrow.png" Stretch="Uniform"/>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="Button" x:Key="pack://application:,,,RedoButtonStyle" BasedOn="{StaticResource BaseStyleButton}">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="ThemeResources/LightThemeResources/RedoArrow.png" Stretch="Uniform"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/FalseRedoArrow.png" Stretch="Uniform"/>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="Button" x:Key="pack://application:,,,CopyButtonStyle" BasedOn="{StaticResource BaseStyleButton}">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="ThemeResources/LightThemeResources/CopyBlocksButton.png" Stretch="Uniform"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/FalseCopyBlocksButton.png" Stretch="Uniform"/>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="Button" x:Key="PasteButtonStyle" BasedOn="{StaticResource BaseStyleButton}">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/PasteBlocksButton.png" Stretch="Uniform"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/FalsePasteBlocksButton.png" Stretch="Uniform"/>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="Button" x:Key="ConvertButtonStyle" BasedOn="{StaticResource BaseStyleButton}">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/ConvertButton.png" Stretch="Uniform"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/FalseConvertButton.png" Stretch="Uniform"/>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!--ButtonStyles-->
+
+    <Style TargetType="Button" x:Key="CloseSchemeButtonStyle">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="Height" Value="15"/>
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="pack://application:,,,ThemeResources/LightThemeResources/CloseButton.png"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="{x:Type cntrls:TextBoxNotEditable}" x:Key="NameSchemeStyle">
+        <Style.Triggers>
+            <Trigger Property="IsEdit" Value="False">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type cntrls:TextBoxNotEditable}">
+                            <TextBlock Text="{TemplateBinding Text}"/>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    
+    <!--ViewElementsStyles-->
+
+    <Style TargetType="Control" x:Key="BaseControlStyle">
+        <Setter Property="Background" Value="#FF171717"/>
+    </Style>
+
+    <Style TargetType="Panel" x:Key="BasePanelStyle" BasedOn="{StaticResource BaseControlStyle}">
+    </Style>
+
+    <Style TargetType="ItemsControl" x:Key="BaseItemsControlStyle" BasedOn="{StaticResource BaseControlStyle}">
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+    
+    <Style TargetType="ListBox" BasedOn="{StaticResource BaseItemsControlStyle}">
+    </Style>
+
+    <Style TargetType="Menu" BasedOn="{StaticResource BaseItemsControlStyle}">
+        <Setter Property="BorderBrush" Value="Black"/>
+    </Style>
+    <Style TargetType="MenuItem" BasedOn="{StaticResource BaseItemsControlStyle}">
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style TargetType="TextBox" BasedOn="{StaticResource BaseControlStyle}">
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+</ResourceDictionary>

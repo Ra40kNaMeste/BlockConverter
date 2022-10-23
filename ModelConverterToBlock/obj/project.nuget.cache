@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IucguEeXsnz/DDyvs73TP0bOEyE1L8nXb958BIEWajZwmu1w5YZT/8x7846UWXsGorwHHPIu9R+RybpWvF4j5Q==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\BlockConverter\\BlockConverter\\ModelConverterToBlock\\ModelConverterToBlock.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KPACAB4UK\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

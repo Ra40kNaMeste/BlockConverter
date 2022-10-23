@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8LDOh0bFamK+6RxS0ur2Y3YK+MR0XrwAwnG2YbTYWxGqe9limY2QRi8BOcEm3xUTLSEuK0HpRuFDhrf0gJHB0Q==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\BlockConverter\\BlockConverter\\BlocksLib\\BlocksLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KPACAB4UK\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}

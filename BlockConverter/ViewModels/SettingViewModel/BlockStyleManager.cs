@@ -162,6 +162,11 @@ namespace BlockConverter.ViewModels.SettingViewModel
         {
             try
             {
+                FileInfo fileInfo = new(saveStylesPath);
+                if(!fileInfo.Directory.Exists)
+                {
+                    fileInfo.Directory.Create();
+                }
                 using (StreamWriter sw = new(saveStylesPath, false))
                 {
                     foreach (var item in styles)

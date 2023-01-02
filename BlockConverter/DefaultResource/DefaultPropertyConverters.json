@@ -111,10 +111,10 @@
           "Successor": {
             "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyAppendWordValueConverter, ModelConverterToBlock",
             "Direction": 0,
-            "Word": "Передача ",
+            "Word": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ",
             "Successor": {
               "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyIfNotValueConverter, ModelConverterToBlock",
-              "Word": "Начало",
+              "Word": "пїЅпїЅпїЅпїЅпїЅпїЅ",
               "Successor": {
                 "$type": "ModelConverterToBlock.Converters.ConvertToBlock.PropertyUnionValueConverter, ModelConverterToBlock",
                 "Word": ", ",

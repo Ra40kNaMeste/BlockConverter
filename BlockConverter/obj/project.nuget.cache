@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wvf2Tg+5qDdolfyjObsHpIJ1qZeP4qQkGN7yFLVdSITBRpgBFvC9hmdUb88UNI9R59hD3KtUTx935if5NGTuZA==",
+  "dgSpecHash": "W6g2TaN8OxoFrBOCVvTJdkuqmEulTrLNr2eu2Hm1gQey6Wm83JzQ1MjxPClqxAHHx/D41mMBCKvlkNCoclDDPA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\BlockConverter\\BlockConverter\\BlockConverter\\BlockConverter.csproj",
+  "projectFilePath": "D:\\BlockConverter\\BlockConverter\\BlockConverter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KPACAB4UK\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\KPACAB4UK\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

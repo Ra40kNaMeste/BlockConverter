@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\BlockConverter\\BlockConverter\\ModelConverterToBlockTests\\ModelConverterToBlockTests.csproj": {}
+    "D:\\BlockConverter\\ModelConverterToBlockTests\\ModelConverterToBlockTests.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\BlockConverter\\BlockConverter\\ModelConverterToBlockTests\\ModelConverterToBlockTests.csproj": {
+    "D:\\BlockConverter\\ModelConverterToBlockTests\\ModelConverterToBlockTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\BlockConverter\\BlockConverter\\ModelConverterToBlockTests\\ModelConverterToBlockTests.csproj",
+        "projectUniqueName": "D:\\BlockConverter\\ModelConverterToBlockTests\\ModelConverterToBlockTests.csproj",
         "projectName": "ModelConverterToBlockTests",
-        "projectPath": "D:\\Projects\\BlockConverter\\BlockConverter\\ModelConverterToBlockTests\\ModelConverterToBlockTests.csproj",
+        "projectPath": "D:\\BlockConverter\\ModelConverterToBlockTests\\ModelConverterToBlockTests.csproj",
         "packagesPath": "C:\\Users\\KPACAB4UK\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\BlockConverter\\BlockConverter\\ModelConverterToBlockTests\\obj\\",
+        "outputPath": "D:\\BlockConverter\\ModelConverterToBlockTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Projects\\BlockConverter\\BlockConverter\\ModelConverterToBlock\\ModelConverterToBlock.csproj": {
-                "projectPath": "D:\\Projects\\BlockConverter\\BlockConverter\\ModelConverterToBlock\\ModelConverterToBlock.csproj"
+              "D:\\BlockConverter\\ModelConverterToBlock\\ModelConverterToBlock.csproj": {
+                "projectPath": "D:\\BlockConverter\\ModelConverterToBlock\\ModelConverterToBlock.csproj"
               }
             }
           }
@@ -82,18 +82,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\BlockConverter\\BlockConverter\\ModelConverterToBlock\\ModelConverterToBlock.csproj": {
+    "D:\\BlockConverter\\ModelConverterToBlock\\ModelConverterToBlock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\BlockConverter\\BlockConverter\\ModelConverterToBlock\\ModelConverterToBlock.csproj",
+        "projectUniqueName": "D:\\BlockConverter\\ModelConverterToBlock\\ModelConverterToBlock.csproj",
         "projectName": "ModelConverterToBlock",
-        "projectPath": "D:\\Projects\\BlockConverter\\BlockConverter\\ModelConverterToBlock\\ModelConverterToBlock.csproj",
+        "projectPath": "D:\\BlockConverter\\ModelConverterToBlock\\ModelConverterToBlock.csproj",
         "packagesPath": "C:\\Users\\KPACAB4UK\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\BlockConverter\\BlockConverter\\ModelConverterToBlock\\obj\\",
+        "outputPath": "D:\\BlockConverter\\ModelConverterToBlock\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -148,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

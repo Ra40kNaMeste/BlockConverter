@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31321.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockConverter", "BlockConverter\BlockConverter.csproj", "{8060A295-C706-472C-A12F-D7E4B1D60010}"
 EndProject
@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelConverterToBlock", "Mo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelConverterToBlockTests", "ModelConverterToBlockTests\ModelConverterToBlockTests.csproj", "{3DEB0BD5-A414-4525-932D-5C8434A8260F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlocksLib", "BlocksLib\BlocksLib.csproj", "{96E220EB-3D88-4068-94B3-483D91D4E646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlocksLib", "BlocksLib\BlocksLib.csproj", "{96E220EB-3D88-4068-94B3-483D91D4E646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

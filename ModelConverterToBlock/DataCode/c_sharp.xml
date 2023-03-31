@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Dates>
 	<Data Name="Context">
-    <Body Name="FuncInput" Start="(" End=")" Links="#(FuncBody)" InizLevel="2"/> 
+		<Body Name="FuncInput" Start="(" End=")" Links="#(FuncBody)" InizLevel="2"/>
 		<ArrayParams Name="InputParams" Links="#(!w)#(Type)#(!w)#(Name)#(*s)" Separator="," InizLevel="1"/>
-    <Optional Name="FuncBody" IsOnlyOne="false" InizLevel="1">
+		<Optional Name="FuncBody" IsOnlyOne="false" InizLevel="1">
 			<Chaines>
 				<Chain Template="#(InputParams)">
 					<Properties>
@@ -16,8 +16,8 @@
 			</Properties>
 		</Optional>
 
-    <Body Name="SwitchCases" Start="{" End="}" Links="#(InputSwitchParams)" InizLevel="3"/>
-    <ArrayParams Name="InputSwitchParams" Links="#(!w)#(SwitchItem)" Separator="" InizLevel="2"/>
+		<Body Name="SwitchCases" Start="{" End="}" Links="#(InputSwitchParams)" InizLevel="3"/>
+		<ArrayParams Name="InputSwitchParams" Links="#(!w)#(SwitchItem)" Separator="" InizLevel="2"/>
 		<Property Name="Name"/>
 		<Property Name="Prop"/>
 		<Property Name="Type"/>
@@ -111,13 +111,13 @@
 						 ChildBlocks="#(YesBody.Output)"/>
 		</Realizations>
 	</Data>
-  <Data Name="Return" Content="#(Name)">
-    <Realizations>
-      <Realization Template="#(!w)return#(*s)#(Name);"/>
-      <Realization Template="#(!w)return#(*s);" Content=""/>
-    </Realizations>
-  </Data>
-  <Data Name="Cycle" Content="#(Condition)" ChildBlocks="#(YesBody.Output)">
+	<Data Name="Return" Content="#(Name)">
+		<Realizations>
+			<Realization Template="#(!w)return#(*s)#(Name);"/>
+			<Realization Template="#(!w)return#(*s);" Content=""/>
+		</Realizations>
+	</Data>
+	<Data Name="Cycle" Content="#(Condition)" ChildBlocks="#(YesBody.Output)">
 		<Realizations>
 			<Realization Template="#(!w)while#(*s)#(Condition)#(*s)#(YesBody)"/>
 		</Realizations>
@@ -145,13 +145,13 @@
 	<Data Name="Input" Content="#(Name)">
 		<Realizations>
 			<Realization Template="#(!w)#(Name)#(*s)=#(*s)Console.ReadLine();"/>
-      <Realization Template="#(!w)#(Name)#(*s)=#(*s)System.Console.ReadLine();"/>
+			<Realization Template="#(!w)#(Name)#(*s)=#(*s)System.Console.ReadLine();"/>
 		</Realizations>
 	</Data>
 	<Data Name="Output" Content="#(Condition)">
 		<Realizations>
 			<Realization Template="Console.WrileLine#(*s)#(Condition)#(*s);"/>
-      <Realization Template="System.Console.WrileLine#(*s)#(Condition)#(*s);"/>
-    </Realizations>
+			<Realization Template="System.Console.WrileLine#(*s)#(Condition)#(*s);"/>
+		</Realizations>
 	</Data>
 </Dates>

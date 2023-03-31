@@ -31,9 +31,6 @@
     <None Update="DataCode\java.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="DataCode\jhj.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="DataCode\c++.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
